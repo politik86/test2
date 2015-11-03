@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" filter="rules" component="com_socialads" section="component">
+			<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+			<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+			<action name="core.create_ad" title="JACTION_CREATE_AD" description="JACTION_CREATE_AD_DESC" />
+			<action name="core.manage_ad" title="JJACTION_MANAGE_AD" description="JJACTION_MANAGE_AD_DESC" />
+			<action name="core.ad_summary" title="JJACTION_AD_SUMMARY" description="JJACTION_AD_SUMMARY_DESC" />
+			<action name="core.campaigns" title="JJACTION_CAMPAIGNS" description="JJACTION_CAMPAIGNS_DESC" />
+			<action name="core.make_payment" title="JJACTION_MAKE_PAYMENT" description="JJACTION_MAKE_PAYMENT_DESC" />
+			<action name="core.transaction" title="JJACTION_TRANSACTION" description="JJACTION_TRANSACTION_DESC" />
+		</field>
+	</fieldset>
+
+	<fieldset name="setting" label="COM_SA_USER_SETTINGS_LABEL" description="COM_SA_USER_SETTINGS_LABEL_DESC">
+		<field name="sa_usergroup" type="usergroup"
+			label="COM_SA_DEFAULT_USER_GROUP"
+			description="COM_SA_DEFAULT_USER_GROUP_DESC"
+			multiple="false" default="2" />
+	</fieldset>
+
+	<fieldset name="ALU" label="Live Updates" description=""  >
+		<field name="downloadid" type="text" default="" size="30"
+		label="Download ID"
+		description ="Enter your Download ID to enable Live Updates" />
+	</fieldset>
+</config>

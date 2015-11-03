@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+	<name>jm-joomads</name>
+	<version>1.01</version>
+	<creationDate>24/02/2014</creationDate>
+	<author>joomla-monster.com</author>
+	<authorEmail>contact@joomla-monster.com</authorEmail>
+	<authorUrl>joomla-monster.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<group>jmf</group>
+	<description><![CDATA[
+	<div class="jm-row" style="float: left; clear: both; width: 100%; max-width: 770px; font-weight: normal; font-size: 12px; color: #444444;">
+	<div id="jm-left" style="float: left; padding: 30px 0 0;">
+	<a style="color: #e46a1a; text-decoration: none !important; display: block; margin: 0 0 15px;" target="_blank" href="http://www.joomla-monster.com"><img style="float: none; margin: 0;" src="http://joomla-monster.com/images/jm-logo.png" /></a>
+	<span style="font-size: 14px; color: #272a2c; display: block;">Templates for Joomla! CMS</span>
+	</div>
+	<div id="jm-right" style="float: right; font-size: 14px; color: #272a2c; padding: 30px 0 0 0; text-align: right;">
+	<div>Template <span style="font-size: 18px; color: #137baf;">JM-Joomads</span><br/></div>
+	<div class="jm-version" style="color: #999999; font-size: 12px; padding: 5px 0 0;">Template version: 1.01</div>
+	</div>
+	</div>
+	<div class="jm-row" style="float: left; clear: both; width: 100%; max-width: 770px; font-weight: normal; font-size: 12px; color: #444444;">
+	<div class="jm-notice" style="font-size: 12px; padding: 10px; margin: 20px 0; text-align: center; background: #F2DEDE; border: 1px solid #EED3D7; display: block; color: #B94A48; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">EF3 Joomla-Monster Framework plugin must be installed to make the template and framework work correctly!</div>
+	</div>
+	<div class="jm-row" style="float: left; clear: both; width: 100%; max-width: 770px; font-weight: normal; font-size: 12px; color: #444444;">
+	<div class="jm-col" style="float: left; padding: 0 20px 0 0; margin: 0 20px 20px 0; border-right: 1px solid #e4e4e4;">Our site: <a target="_blank" href="http://www.joomla-monster.com">www.joomla-monster.com</a></div>
+	<div class="jm-col" style="float: left; padding: 0 20px 0 0; margin: 0 20px 20px 0; border-right: 1px solid #e4e4e4;">DJ-Extensions: <a target="_blank" href="http://www.dj-extensions.com">www.dj-extensions.com</a></div>
+	<div class="jm-col" style="float: left; margin: 0 0 20px;">Custom Joomla services: <a target="_blank" href="http://www.design-joomla.eu">www.design-joomla.eu</a></div>
+	</div>
+	]]></description> 
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>assets</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+		<folder>lib</folder>
+		<folder>tpl</folder>
+	</files>
+	<positions>
+	    <position>top-banner</position>
+    	<position>topbar</position>
+    	<position>header</position>
+    	<position>header-mod</position>
+        <position>top-menu-nav</position>
+        <position>top</position>
+        <position>breadcrumbs</position>
+        <position>content-top</position>
+        <position>content-bottom</position>
+        <position>left-column</position>
+        <position>right-column</position>
+        <position>bottom</position>
+        <position>footer-mod</position>
+        <position>copyrights</position>
+        <position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<!-- BASIC SETTINGS -->
+		<fieldset name="jmbasic" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_BASIC_SETTINGS_LABEL">
+			<field name="logo" type="media" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_LOGO_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_LOGO_DESC" />
+			<field name="logoText" type="text" size="35" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_LOGO_TEXT_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_LOGO_TEXT_DESC" filter="string" />
+			<field name="siteDescription" type="text" size="35" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_SITE_DESCRIPTION_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_SITE_DESCRIPTION_DESC" filter="string" />
+			<field name="styleSwitcher" type="radio" class="btn-group" default="1" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_STYLE_SWITCHER_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_STYLE_SWITCHER_DESC">
+				<option value="0">PLG_SYSTEM_JMFRAMEWORK_CONFIG_DISABLE_LABEL</option>
+				<option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_ENABLE_LABEL</option>
+			</field>
+			<field name="templateStyle" type="list" default="1" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_DESC">
+				<option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_STYLE1_LABEL</option>
+				<option value="2">PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_STYLE2_LABEL</option>
+				<option value="3">PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_STYLE3_LABEL</option>
+				<option value="4">PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STYLE_STYLE4_LABEL</option>	
+			</field>
+			<field name="fontSizeSwitcher" type="radio" class="btn-group" default="0" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_FONT_SIZE_SWITCHER_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_FONT_SIZE_SWITCHER_DESC">
+				<option value="0">PLG_SYSTEM_JMFRAMEWORK_CONFIG_DISABLE_LABEL</option>
+				<option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_ENABLE_LABEL</option>
+			</field>
+			<field name="backToTop" type="radio" class="btn-group" default="1" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_BACKTOTOP_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_BACKTOTOP_DESC">
+				<option value="0">PLG_SYSTEM_JMFRAMEWORK_CONFIG_DISABLE_LABEL</option>
+				<option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_ENABLE_LABEL</option>
+			</field>
+			<field name="favIconImg" type="media" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_FAVICON_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_FAVICON_DESC" />
+			<field name="barSticky" type="radio" class="btn-group" default="0" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_BARSTICKY_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_BARSTICKY_DESC">
+				<option value="0">PLG_SYSTEM_JMFRAMEWORK_CONFIG_DISABLE_LABEL</option>
+				<option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_ENABLE_LABEL</option>
+			</field>
+		</fieldset>
+			<!-- TEMPLATE LAYOUT -->
+			<fieldset name="jmlayout" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_LAYOUT_LABEL">
+				<field name="templateWidthType" type="jmoptiongroups" default="0" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_WIDTH_SELECTOR_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_WIDTH_SELECTOR_DESC">
+					<group value="0" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_STATIC_LABEL" />
+					<group value="1;templateFluidWidth" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_FLUID_LABEL" />
+					<field name="templateFluidWidth" type="text" default="1220px" class="unit-remember" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_WIDTH_PERCENT_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_TEMPLATE_WIDTH_PERCENT_DESC" />
+				</field>				
+                <field name="responsiveLayout" type="radio" class="btn-group" default="1" label="PLG_SYSTEM_JMFRAMEWORK_CONFIG_RESPONSIVE_LABEL" description="PLG_SYSTEM_JMFRAMEWORK_CONFIG_RESPONSIVE_DESC">
+                    <option value="0">PLG_SYSTEM_JMFRAMEWORK_CONFIG_DISABLE_LABEL</option>
+                    <option value="1">PLG_SYSTEM_JMFRAMEWORK_CONFIG_ENABLE_LABEL</option>
+                </field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

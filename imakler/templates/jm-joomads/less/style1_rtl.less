@@ -1,0 +1,445 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   VARIABLES import
+   ========================================================================== */
+  
+@import "template_variables.less";
+
+@import "template_mixins.less";
+@import "../../../plugins/system/jmframework/includes/assets/template/bootstrap/less/mixins.less";
+
+/* ==========================================================================
+   STYLE1 RTL styles
+   ========================================================================== */
+
+// DJ Megamenu
+// -------------------------- 
+
+.dj-megamenu li {
+  a.dj-up_a span.dj-drop:after {
+    border-color: @JMstyle1MegamenuArrowColor transparent transparent transparent;
+  }
+  ul.dj-submenu > li.parent > a:after {
+    border-color: transparent @JMstyle1MegamenuArrowColor transparent transparent;
+  }
+  ul.dj-submenu > li:hover > a,
+  ul.dj-submenu > li.hover > a,
+  ul.dj-submenu > li.active > a,
+  ul.dj-subtree > li:hover > a,
+  ul.dj-subtree > li.hover > a,
+  ul.dj-subtree > li.active > a {
+    color: @JMstyle1MegamenuSubmenuActiveFontColor;
+  }
+}
+
+.ie .dj-megamenu li ul.dj-submenu > li.parent > a:after {
+    border-width: 4.5px 0 4.5px 5px;
+    border-color: transparent transparent transparent @JMstyle1MegamenuArrowColor;
+}
+
+// Menu
+// -------------------------- 
+
+.nav.menu {
+  li li:hover > a,
+  li li.active > a,
+  li li.active > span.separator {
+    color: @JMstyle1MenuActiveFontColor;
+  }
+  li.parent > a:after {
+    border-color: transparent @JMstyle1MenuArrowColor transparent transparent;
+  }
+  li.parent.deeper > a:after {
+    border-color: @JMstyle1MenuArrowColor transparent transparent transparent;
+  }
+}
+
+.ie ul.menu li.parent > a:after {
+    border-color: transparent transparent transparent @JMstyle1MenuArrowColor;
+}
+
+/* white-ms */
+
+#jm-allpage .jm-module.white-ms .nav.menu {
+  li li:hover > a,
+  li li.active > a,
+  li li.active > span.separator {
+    color: @JMstyle1MenuActiveFontColor;
+  }
+}
+
+/* classic-ms */
+
+.nav.menu.classic-ms > li > a,
+#jm-allpage .jm-module.white-ms .nav.menu.classic-ms > li > a,
+.jm-footer .nav.menu.classic-ms > li > a {
+  color: @JMstyle1ClassicmsMenuActiveFontColor;
+}
+
+/* nav-stacked */
+  
+.nav-tabs.nav-stacked li a {
+  color: @JMstyle1Link;
+}
+
+// Scaffolding
+// -------------------------- 
+
+a {
+  color: @JMstyle1Link;
+}
+
+::selection {
+  background: @JMstyle1;
+  color: @JMwhite;
+}
+::-webkit-selection {
+  background: @JMstyle1;
+  color: @JMwhite;
+}   
+::-moz-selection {
+  background: @JMstyle1;
+  color: @JMwhite;
+}
+
+/** template **/
+
+#jm-allpage .newsflash .newsflash-title a:hover {
+  color: @JMstyle1Link;
+}
+
+ul.jm-color li {
+  background-image: url('../images/style1/li_RTL.png');
+}
+
+//tags
+.label-info[href], .badge-info[href],
+.label-info, .badge-info {
+  background: @JMstyle1;
+  &:hover {
+    background: lighten(@JMstyle1, 10%);
+  }
+}
+
+// Modules
+// -------------------------- 
+
+.jm-module.title-box-ms .jm-title {
+  .box-shadow2(0 1px 0 0 @JMborder, inset -5px 0 0 0 @JMstyle1TitleboxmsModuleBorder);
+}
+
+// Buttons & Readmore
+// -------------------------- 
+
+p.readmore a,
+a.readmore,
+.mod-articles-category-readmore a {
+  color: @JMstyle1ReadmoreFontColor;
+  border: 2px solid @JMstyle1ReadmoreBorder;
+  &:hover {
+    background: @JMstyle1ReadmoreActiveBackground;
+  }
+  &:after {
+    background: url('../images/style1/readmore-arrow_RTL.png');
+  }
+}
+
+p.readmore a.btn {
+  color: @JMstyle1ReadmoreFontColor!important;
+  border: 2px solid @JMstyle1ReadmoreBorder!important;
+  background: transparent;
+  &:hover {
+    background: @JMstyle1ReadmoreActiveBackground;
+  }
+}
+
+#jm-topbar .nav.menu > li a.color {
+  background: @JMstyle1TopbarColorButton;
+  &:hover {
+    background: @JMstyle1TopbarColorActiveButton;
+  }
+}
+
+.btn,
+a.button,
+input.button,
+button.button {
+  background: @JMstyle1ButtonBackground;
+  &:hover,
+  &:active {
+    background: @JMstyle1ButtonActiveBackground;
+  }
+}
+
+/* jm-search */
+
+#jm-allpage .jm-search {
+  .inputbox.first_input,
+  .inputbox.jm-search {
+    border-color: @JMstyle1SearchBorderColor;
+  }
+  button.button,
+  input.button {
+    background-color: @JMstyle1SearchButtonBackground;
+    &:hover {
+      background-color: @JMstyle1SearchButtonActiveBackground;
+    }
+  }
+}
+
+
+// Heading
+// -------------------------- 
+
+.page-header h2,
+h2.item-title,
+.cat-children > h3,
+.contact-category > h2,
+.weblink-category > h2,
+.newsfeed > h2,
+.newsfeed-category > h2,
+.tag-category h2 {
+  a:hover {
+    color: @JMstyle1HeadingActiveFontColor;
+  }
+}
+
+// Dropdown
+// -------------------------- 
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  background: @JMstyle1ButtonDropdown;
+}
+
+// Editor
+// -------------------------- 
+
+.ch-item.ch-first .ch-info,
+.ch-item.ch-second .ch-info .ch-info-back,
+.ch-item.ch-third .ch-info .ch-info-back {
+  background: @JMstyle1;
+}
+
+.jm-special .td2 {
+  color: @JMstyle1color2;
+}
+
+// DJCLASSIFIEDS
+// -------------------------- 
+ 
+#dj-classifieds {
+  .dj-category .cat_row_title,
+  h1.main_cat_title,
+  .dj-cattree-box .title_top,
+  .title_top h1,
+  .dj-additem .title_top,
+  table.paymentdetails td.td_title h2,
+  .profile_outer .profile_name_data .profile_name,
+  .dj-item .description h2 {
+    .box-shadow2(0 1px 1px 0 rgba(0,0,0, 0.1), -5px 0 0 0 @JMstyle1ClassifiedsTitleBorder inset);
+  }
+  .djcf_items_blog .title h2 a {
+    color: @JMstyle1ClassifiedsAdvertTitle;
+  }
+  .blog_det .price {
+    color: @JMstyle1ClassifiedsPrice; 
+  }
+  .see_details_box a {
+    color: @JMstyle1ReadmoreFontColor;
+    border: 2px solid @JMstyle1ReadmoreBorder;
+  }
+  .see_details_box a:hover {
+    background: @JMstyle1ReadmoreActiveBackground;
+  }
+  .see_details_box a:after {
+    background: url('../images/style1/readmore-arrow_RTL.png');
+  }
+  .dj-item .general_det .price_wrap span.row_value {
+    color: @JMstyle1ClassifiedsPrice; 
+  }
+  .ask_form_abuse_outer .button#submit_b {
+    background: @JMstyle1ClassifiedsSubmitButton;
+  }
+  .ask_form_abuse_outer .button#submit_b:hover {
+    background: @JMstyle1ClassifiedsSubmitActiveButton;
+  }
+}
+
+#jm-allpage #dj-classifieds {
+  .gm_drive_dir input.button {
+    background-color: @JMstyle1ClassifiedsSubmitButton;
+  }
+  .gm_drive_dir input.button:hover {
+    background-color: @JMstyle1ClassifiedsSubmitActiveButton;
+  }
+}
+
+#dj-classifieds {
+  .dj-item .title_top h2 {
+    color: @JMstyle1ClassifiedsAdvertTitle;
+  }
+  /* promotions */
+  .djcf_items_blog .promotion.p_bg .item_box_in2 {
+    background: @JMstyle1ClassifiedsPromotionBackground;
+  }
+  .djcf_items_blog .promotion.p_border .item_box_in2 {
+    border: 3px solid @JMstyle1ClassifiedsPromotionBorder;
+  }
+  .djcf_items_blog .promotion.p_bg .title {
+    border-color: @JMstyle1ClassifiedsPromotionInsetBorder;
+  }
+  table.dj-items tr.promotion.p_bg td {
+    background: @JMstyle1ClassifiedsPromotionBackground;
+  }
+  table.dj-items tr.promotion.p_border td {
+    border-bottom: 3px solid @JMstyle1ClassifiedsPromotionBorder;
+    border-top: 3px solid @JMstyle1ClassifiedsPromotionBorder;
+    border-left: 1px solid @JMstyle1ClassifiedsPromotionInsetBorder;
+    border-right: none;
+  }
+  table.dj-items tr.promotion.p_border td.first {
+    border-right: 3px solid @JMstyle1ClassifiedsPromotionBorder;
+  }
+  table.dj-items tr.promotion.p_border td:last-child {
+    border-left: 3px solid @JMstyle1ClassifiedsPromotionBorder;
+  }
+  /* table */
+  table.dj-items td.name a,
+  table.dj-items td.price,
+  .dj-useradverts .row_ua .row_ua1 .col_ua a.title {
+    color: @JMstyle1ClassifiedsAdvertTitle;
+  }
+  table.dj-items .col_distance .show_distance span:before,
+  table.dj-items .col_distance .show_on_map span:before {
+    color: @JMstyle1Link;
+  }
+}
+
+/* module */
+
+.mod_djclassifieds_items div.title a.title {
+  color: @JMstyle1ClassifiedsAdvertTitle;
+}
+
+.mod_djclassifieds_items div.title span.price {
+  color: @JMstyle1ClassifiedsPrice;
+}
+
+.dj_cf_search button.button {
+  background: @JMstyle1ClassifiedsSubmitButton;
+  &:hover {
+    background: @JMstyle1ClassifiedsSubmitActiveButton;
+  }
+}
+
+// DJMEDIATOOLS
+// -------------------------- 
+
+.dj-galleryGrid .dj-slide-title,
+.dj-galleryGrid .dj-slide-title a {
+    color: @JMstyle1MediatoolsGalleryGridSlideTitle!important; 
+}
+
+#jm-allpage .dj-extra .price {
+    color: @JMstyle1MediatoolsPrice;
+}
+
+#jm-allpage .dj-readmore-wrapper a {
+    color: @JMstyle1MediatoolsReadmore!important;
+}
+
+.dj-slideshow .dj-load-button-active,
+.dj-slideshow .dj-load-button:hover {
+    background: @JMstyle1MediatoolsNavigationActiveBackground!important;
+}
+
+.dj-slideshow .dj-load-button {
+    border: 2px solid @JMstyle1MediatoolsNavigationBorder!important;    
+}
+
+.dj-slideshow .dj-load-button .dj-key {
+    color: @JMstyle1MediatoolsNavigationFont!important;
+}
+
+.dj-mslider .dj-load-button {
+    background: @JMstyle1MediatoolsNavigationActiveBackground!important;
+}
+
+.dj-mslider .dj-load-button.dj-load-button-active {
+    border: 2px solid @JMstyle1MediatoolsNavigationBorder!important;
+}
+
+.djslider-loader .load-button {
+    background: @JMstyle1MediatoolsNavigationActiveBackground!important;
+}
+
+.djslider-loader .load-button.load-button-active {
+    border: 2px solid @JMstyle1MediatoolsNavigationBorder!important;
+}
+
+.box_skitter .image_number {
+    color: @JMstyle1MediatoolsNavigationFont!important;
+    border: 2px solid @JMstyle1MediatoolsNavigationBorder!important; 
+}
+
+.box_skitter .image_number_select,
+.box_skitter .image_number:hover {
+    background: @JMstyle1MediatoolsNavigationActiveBackground!important;
+}
+
+#jm-allpage .slider-wrapper .nivo-controlNav a.active,
+#jm-allpage .slider-wrapper .nivo-controlNav a:hover {
+    background: @JMstyle1MediatoolsNavigationActiveBackground!important;
+}
+
+#jm-allpage .slider-wrapper .nivo-controlNav a {
+    color: @JMstyle1MediatoolsNavigationFont!important;
+    border: 2px solid @JMstyle1MediatoolsNavigationBorder!important;    
+}
+
+#jm-allpage .slider1-ms .dj-readmore-wrapper a {
+    background: @JMstyle1MediatoolsReadmoreBackground!important;
+}
+
+.slider1-ms .dj-readmore-wrapper a:after {
+    border-color: transparent @JMstyle1MediatoolsReadmoreTriangleBackground transparent transparent;
+}
+
+.slider2-ms .dj-slide-title,
+.slider2-ms .dj-slide-title a {
+    color: @JMstyle1MediatoolsSlider2msSlideTitle!important;
+}
+
+#jm-allpage .slider2-ms .dj-readmore-wrapper a {
+    color: @JMstyle1ReadmoreFontColor!important;
+    border: 2px solid @JMstyle1ReadmoreBorder!important;
+}
+
+#jm-allpage .slider2-ms .dj-readmore-wrapper a:hover {
+    background: @JMstyle1ReadmoreActiveBackground;
+}
+
+#jm-allpage .slider2-ms .dj-readmore-wrapper a:after {
+    background: url('../images/style1/readmore-arrow_RTL.png');
+}
+
+#jm-allpage .slider2-ms .djslider-loader .navigation-container .prev-button:hover,
+#jm-allpage .slider2-ms .dj-mslider .dj-navigation .dj-prev:hover {
+    background: url('../images/style1/prev-active.png');
+}
+
+#jm-allpage .slider2-ms .djslider-loader .navigation-container .next-button:hover,
+#jm-allpage .slider2-ms .dj-mslider .dj-navigation .dj-next:hover {
+    background: url('../images/style1/next-active.png');
+}
+

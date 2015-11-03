@@ -1,0 +1,1657 @@
+#search211_ex_fields {
+  
+}
+
+.inputbox.first_input {
+width:200px!important;
+}
+
+.search_type {
+  width: 142px;
+  float: left;
+      padding-left: 5px;
+}
+
+.search_regions {
+  float:left;
+      padding-left: 5px;
+}
+
+.search_cats {
+width: 145px;
+}
+
+.category {
+  font-size: 14px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 0px;
+  font-family: Open Sans, sans-serif;
+}
+
+
+.cf_box {
+position: absolute;
+    max-height: 17px;
+}
+.border_seperator {
+border-bottom:1px solid #DDDDDD;
+  padding-top: 36px;
+  margin-bottom: -44px;
+}
+
+.item_box_hover {
+  position: absolute;
+  height: 324px;
+  width: 222px;
+  margin: -231px 0px 0 0px;
+}
+.item_box_hover:hover {
+background-image: url('../../../images/back-ads.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid red;
+  z-index: 1;
+}
+.item_box_hover>.item_box_show {
+display: none;
+}
+.item_box_hover:hover>.item_box_show {
+display: block;
+}
+
+
+
+.item_box_hover2 {
+  position: absolute;
+  height: 324px;
+  width: 222px;
+  margin: 0 0px 0 0px;
+}
+.item_box_hover2:hover {
+background-image: url('../../../images/back-ads.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid red;
+  z-index: 1;
+}
+.item_box_hover2>.item_box_show {
+display: none;
+}
+.item_box_hover2:hover>.item_box_show {
+display: block;
+}
+
+
+
+.date_blog {
+  position: absolute;
+  margin: -21px 0 0 0px;
+      width: 224px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.date_before {
+  background-image: url('../images/hotoffer_sprite1.png');
+  background-position: -56px -3px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 2px -3px 5px;
+}
+.item_box_in2 {
+  height: 329px;
+}
+
+.blog_adress{
+  position: absolute;
+  width: 197px;
+  height: 20px;
+  overflow: hidden;
+  padding: 50px 0 0 21px;
+  margin-left: 9px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 0px;
+  font-family: Open Sans, sans-serif;
+}
+
+.blog_adress_before {
+  margin-top: 52px;
+  margin-left: 9px;
+  font-size: 13px;
+  background: url(../images/hotoffer_sprite1.png) -34px -21px no-repeat;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+}
+.blog_item_views {
+     margin-top: 72px;
+    margin-right: 5px;
+    font-size: 10px;
+    float: right;
+}
+.ploshad_before {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../images/icons-realty-adv.png) -18px -54px no-repeat;
+    margin-left: 87px;
+  }
+  
+  .ploshad {
+  margin-left: 106px;
+  margin-top: -7px;
+  }
+  .sotok {
+     margin: 5px 0 0 106px;
+  }
+  .sotok_before {
+    width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../images/icons-realty-adv.png) -18px -54px no-repeat;
+    margin-left: 87px; 
+  }
+  
+  
+  .room_before {
+    width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../images/icons-realty-adv.png) 0 -54px no-repeat;
+      margin-left: 9px;
+  }
+  
+  .room {
+       margin-left: 28px;
+  }
+  
+  .etaj_before {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../images/icons-realty-adv.png)-36px -54px no-repeat;
+    margin-left: 172px;
+  }
+  .etaj {
+    margin-left: 191px;
+  margin-top: -4px;
+  }
+   .etaj:after {
+    content:'/';
+  }
+  .etajnost {
+   margin-left: 201px;
+  margin-top: 4px;
+  }
+  
+ .item_box_show h2 {
+  font-size: 16px;
+  margin: 33px 23px 10px 23px;
+  }
+  
+   .item_box_show a{
+  color:white;
+  }
+  
+  .before_title_in {
+  background-image: url(../images/info-imakler.png);
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  margin-top: 4px;
+  position: absolute;
+  background-size: cover;
+}
+
+  .item_box_show .region {
+  color: white;
+  margin: 0 6px 13px 24px;
+  }
+  .item_box_show .region:hover:before {
+  content: 'Şəhər';
+  position: absolute;
+  margin: -17px 0px 0 -24px;
+  background: #069;
+  color: white;
+  padding: 0px 0 0 11px;
+  width: 50px;
+  font-size: 10px;
+  line-height: 1.5;
+  }
+   .item_box_show .region:hover:after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  border: 13px solid transparent;
+  border-top: 10px solid rgb(0, 102, 153);
+  margin-top: -3px;
+  }
+  
+  .before_city_in {
+  background-position: -98px -2px;
+  background-image: url(../images/hotoffer_sprite1.png);
+  width: 14px;
+  height: 17px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.see_details_box {
+  bottom: 10px;
+  position: absolute;
+    margin-left: 27px;
+}
+
+.adress_in {
+    color: white;
+  margin: 0 6px 13px 24px;
+  height: 17px;
+  overflow: hidden;
+}
+
+.adress_in_before {
+  background-position: -77px -2px;
+  background-image: url(../images/hotoffer_sprite1.png);
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.adress_in:hover:before {
+  content: 'Адресс';
+  position: absolute;
+  margin: -17px 0px 0 -24px;
+  background: #069;
+  color: white;
+  padding: 0px 0 0 11px;
+  width: 50px;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.adress_in:hover:after {
+ content: '';
+  position: absolute;
+  left: 16px;
+  /* bottom: -4px; */
+  border: 13px solid transparent;
+  border-top: 10px solid rgb(0, 102, 153);
+  margin-top: -3px;
+}
+.vladelec_in {
+  color: white;
+  margin: 0 6px 13px 24px;
+      height: 17px;
+}
+
+.vladelec_in:hover:before {
+  content: 'Elanı yerləşdirən';
+  position: absolute;
+  margin: -17px 0px 0 -24px;
+  background: #069;
+  color: white;
+  padding: 0px 0 0 11px;
+  width: 90px;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.vladelec_in:hover:after {
+    content: '';
+  position: absolute;
+  left: 16px;
+  border: 13px solid transparent;
+  border-top: 10px solid rgb(0, 102, 153);
+  margin-top: -3px;
+}
+
+.vladelec_in_before {
+    background-image: url(http://imakler.az/def-images/man.png);
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  margin-top: 4px;
+  position: absolute;
+  background-size: cover;
+}
+
+.doc_in {
+  color: white;
+    margin: 31px 6px 13px 24px;
+	    height: 17px;
+		position:absolute;
+}
+
+.doc_in:first-letter {
+text-transform:uppercase;
+}
+
+.doc_in:hover:before{
+  content: 'Emlakın sənədi';
+  position: absolute;
+  margin: -17px 0px 0 -24px;
+  background: #069;
+  color: white;
+  padding: 0px 0 0 11px;
+  width: 150px;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.doc_in:hover:after{
+    content: '';
+  position: absolute;
+  left: 16px;
+  /* bottom: -4px; */
+  border: 13px solid transparent;
+  border-top: 10px solid rgb(0, 102, 153);
+  margin-top: -3px;
+}
+
+.doc_in_before {
+  background-image: url(http://imakler.az/def-images/doc.png);
+  width: 14px;
+  height: 14px;
+    margin-left: 5px;
+  margin-top: 35px;
+ 
+  position: absolute;
+  background-size: cover;
+}
+
+
+.metro_in {
+  color: white;
+  background-image: url(http://imakler.az/def-images/metro.png);
+  background-repeat: no-repeat;
+  margin: 65px 0px 0 6px;
+  padding-left: 19px;
+  background-position: left center;
+  background-size: 14px;
+  height: 17px;
+      position: absolute;
+	      width: 100px;
+}
+
+.metro_in:hover:before{
+ content: 'Yaxınlıqdakı metro stansiyası';
+  position: absolute;
+  margin: -17px 0px 0 -24px;
+  background: #069;
+  color: white;
+  padding: 0px 0 0 11px;
+  width: 132px;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.metro_in:hover:after{
+    content: '';
+  position: absolute;
+  left: 16px;
+  /* bottom: -4px; */
+  border: 13px solid transparent;
+  border-top: 10px solid rgb(0, 102, 153);
+  margin-top: -5px;
+}
+
+.top-prem {
+  width: 816px;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px none #000000;
+  height: 30px;
+  padding-top: 7px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+.vip-ads {
+    height: 370px;
+}
+
+h1.header_info {
+        font-size: 1.3em;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 0px none #000000;
+    margin-left: 11px;
+    padding-left: 10px;
+    margin-right: 4px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1), 5px 0 0 0 #017eba inset;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1), 5px 0 0 0 #017eba inset;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1), 5px 0 0 0 #017eba inset;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+strong.top_head {
+  background: rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px none #000000;
+  width: 1000px;
+  padding-left: 25px;
+  padding-right: 608px;
+  margin-left: 11px;
+  /* margin-bottom: 20px; */
+}
+.djcf_items_blog {}
+
+.pq-select-button.pq-no-capture.ui-widget.ui-state-default.ui-corner-all.pq-select-multiple {
+    width: 174px!important;
+  line-height: 27px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 100;
+  padding-left: 19px;
+  }
+  
+  
+ /* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox46 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox46 + label {
+  cursor: pointer;
+  width:150px;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox46:not(checked) {
+  position: absolute;
+  opacity: 0;
+  width: 200px;
+  height: 30px!important;
+  z-index: 999;
+}
+.checkbox46:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding-left: 60px !important; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox46:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox46:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox46:checked + label:before {
+  background: #017EBA;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox46:checked + label:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox46:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+
+ 
+  
+  
+  /* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox36 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox36 + label {
+  cursor: pointer;
+  width:102px;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox36:not(checked) {
+  position: absolute;
+  opacity: 0;
+  width: 200px;
+  height: 30px!important;
+  z-index: 999;
+}
+.checkbox36:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding-left: 45px !important; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox36:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 35px;
+  height: 19px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox36:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox36:checked + label:before {
+  background: #017EBA;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox36:checked + label:after {
+  left: 19px;
+}
+/* Показываем получение фокуса. */
+.checkbox36:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+.se_checkbox{
+background-color: black;
+}
+
+.pos_check {
+display: block;
+}
+
+select.cs-select.cs-skin-underline {
+ 
+}
+
+.cs-skin-underline > span {
+font-size:13px;
+}
+
+.cs-skin-underline.cs-active .cs-options,.cs-skin-underline .cs-options {
+font-size:13px;
+}
+.dj_cf_search .se_checkbox36 {
+    width: 870px;
+ 
+}
+
+.dj_cf_search .se_checkbox36 div {
+    
+}
+
+.dj_cf_search .se_checkbox36 div,
+.dj_cf_search .radiofield_box div {
+    float: left!important;
+}
+
+li.my_check_0 {
+  margin: 0;
+  padding: 0 0 0 12px;
+  background-repeat: no-repeat;
+  background-position: left 6px;
+  background-image: none;
+  display: flex;
+}
+
+.checkbox-dropdown_37 {
+    width: 200px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_37:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+/* Reverse the CSS arrow when the dropdown is active */
+.checkbox-dropdown.is-active:after {
+    border-bottom-color: #000;
+    border-top-color: #fff;
+    margin-top: -9px;
+}
+
+.checkbox-dropdown_37:hover>.checkbox-dropdown-list_37 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_37 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_37 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_37 li label:hover {
+    
+}
+
+.checkbox-dropdown_38 {
+    width: 100px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_38:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+/* Reverse the CSS arrow when the dropdown is active */
+.checkbox-dropdown:hover:after {
+    border-bottom-color: #000;
+    border-top-color: #fff;
+    margin-top: -9px;
+}
+.checkbox-dropdown_38:hover>.checkbox-dropdown-list_38 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_38 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_38 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_38 li label:hover {
+    
+}
+
+.checkbox-dropdown_40 {
+    width: 100px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_40:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_40:hover>.checkbox-dropdown-list_40 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_40 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_40 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_40 li label:hover {
+  
+}
+
+.checkbox-dropdown_42 {
+    width: 130px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_42:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_42:hover>.checkbox-dropdown-list_42 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_42 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_42 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_42 li label:hover {
+   
+}
+.checkbox-dropdown_43 {
+    width: 155px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_43:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_43:hover>.checkbox-dropdown-list_43 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_43 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_43 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_43 li label:hover {
+    
+}
+
+.checkbox-dropdown_44 {
+    width: 200px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_44:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_44:hover>.checkbox-dropdown-list_44 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_44 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_44 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_44 li label:hover {
+   
+}
+
+
+
+.checkbox-dropdown_47 {
+    width: 200px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_47:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_47:hover>.checkbox-dropdown-list_47 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_47 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_47 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_47 li label:hover {
+    
+}
+
+.checkbox-dropdown_39 {
+    width: 72px;
+    border: 1px solid silver;
+    cursor: pointer; /* use correct mouse pointer when hovering over the dropdown */
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown_39:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown_39:hover>.checkbox-dropdown-list_39 {
+opacity:1;
+pointer-events: auto;
+height:100px;
+overflow:auto;
+background:white;
+z-index:999;
+}
+
+.checkbox-dropdown-list_39 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+
+.checkbox-dropdown-list_39 li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list_39 li label:hover {
+    background-color: #0E587C;
+    color: white;
+}
+.checkbox-dropdown_36 {
+width: 800px;
+}
+
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox45 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox45 + label {
+  cursor: pointer;
+  width:150px;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox45:not(checked) {
+  position: absolute;
+  opacity: 0;
+  width: 200px;
+  height: 30px!important;
+  z-index: 999;
+}
+.checkbox45:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding-left: 60px !important; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox45:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox45:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox45:checked + label:before {
+  background: #017EBA;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox45:checked + label:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox45:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+
+
+
+
+.search_price label {
+
+}
+.price_in_gd {
+    float:right;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 0px 10px;
+    color: rgb(14, 88, 124);
+}
+.pub_date {
+float:right;
+padding-right:17px;
+}
+.disp_item  {
+float:right;
+    margin-right: 60px;
+}
+.my_detail{
+    margin-bottom: 7px;
+	background: white;
+    float: right;
+    width: 284px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 0px none #000000;
+}
+
+.row.row_barter {
+    display: -webkit-inline-box!important;
+}
+.row.row_metro {
+    display: -webkit-inline-box!important;
+}
+.row.row_etajnost {
+    display: -webkit-inline-box!important;
+}
+.row.row_komnat {
+    display: -webkit-inline-box!important;
+}
+.row.row_ploshad {
+    display: -webkit-inline-box!important;
+}
+.row.row_zdanie {
+    display: -webkit-inline-box!important;
+}
+.row.row_remont {
+    display: -webkit-inline-box!important;
+}
+.row.row_dokymenti {
+    display: -webkit-inline-box!important;
+}
+.row.row_kredit  {
+    display: -webkit-inline-box!important;
+}
+.row.row_vladelec {
+    display: -webkit-inline-box!important;
+}
+.row.row_telefon {
+    display: -webkit-inline-box!important;
+}
+.row.row_vatsup {
+    display: -webkit-inline-box!important;
+}
+.row.row_sotok {
+    display: -webkit-inline-box!important;
+}
+
+.my_gen_detail {
+    width: 280px;
+    float: right;
+}
+
+section#jm-header-wrapper{
+	    background-repeat: repeat-x;
+}
+
+.search_price>label {
+    margin: 0px 0 0 0px;
+    font-size: 9px;
+	display:none;
+}
+
+.fon-back_menu {
+    height: 39px;
+    width: 100%;
+    background-color: #0E587C;
+    position: absolute;
+    margin-top: -50px;
+}
+
+div#jm-logo-sitedesc {}
+div#jm-logo-sitedesc:before {
+    content: '';
+    height: 70px;
+    width: 100%;
+    background-color: #0E587C;
+    background-image: url('http://imakler.az/images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -61px;
+    background-position: 60px;
+}
+.stickybar.scrolled #jm-bar #jm-bar-right {
+padding: 27px 0 0 0;
+}
+
+a.button.up_to_top {
+    background-color: azure; */
+    background: none;
+    background-color: false;
+    background-color: #FD8816;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: black !important;
+    font-weight: bold;
+    line-height: 31px!important;
+    text-decoration: none;
+    padding: 1px 40px 1px 11px!important;
+    /* box-shadow: inset 0 1px 0 0 #fff; */
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+a.button.up_to_prem {
+   background-color: azure; */
+    background: none;
+    background-color: false;
+    background-color: #FD8816;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: black !important;
+    font-weight: bold;
+    line-height: 31px!important;
+    text-decoration: none;
+    padding: 1px 45px 1px 5px!important;
+    /* box-shadow: inset 0 1px 0 0 #fff; */
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.intro_desc_content {
+    background: white;
+    padding: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 0px none #000000;
+}
+a.dj-up_a.color {
+    background-color: #29B6A6;
+	margin-left: 60px;
+	overflow: hidden;
+}
+
+a.dj-up_a.color:hover {
+    background: #29B6A6!important;
+	   
+    padding-bottom: 0px!important;
+}
+
+li.dj-up.itemid622:hover {
+background: none!important;
+        margin: 0px 0 0 3px;
+    padding: 2px 0 0 0;
+    
+}
+li.dj-up.itemid622 {
+    overflow: hidden;
+}
+a.dj-up_a.color:after {
+    position: absolute;
+    content: '+';
+    right: -20px;
+    top: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+	}
+a.dj-up_a.color:hover:after {
+    position: absolute;
+    content: '+';
+    right: 0px;
+    top: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+	}
+	
+	li.dj-up.itemid622.current.active {
+	background: none!important;
+	}
+	a.dj-up_a.active.color {
+	background: #29B6A6!important;
+	padding-bottom: 0px!important;
+	}
+	
+	.description h2  {display:none;}
+	
+	.obshaja_infa {
+	margin-bottom: 25px;
+    width: 31%;
+	float: left;
+	}
+	
+	.obshaja_infa:before {
+	content:'Общая информация';
+    font-size: 18px;
+    color: #0E587C;
+    font-weight: 700;
+	}
+	
+	.podrobnaja_infa {
+	   width: 31%;
+	    float: left;
+	}
+	
+	.podrobnaja_infa:before {
+	content:'Подробная информация';
+    font-size: 18px;
+    color: #0E587C;
+    font-weight: 700;
+	}
+	
+	.contact_infa {
+	float: right;
+	width: 31%;
+	}
+	
+	.contact_infa:before {
+	content:'Контактная информация';
+    font-size: 18px;
+    color: #0E587C;
+    font-weight: 700;
+	}
+	
+	.djform_rowv_nalichii {
+    z-index: 99999;
+    width: 900px;
+    position: absolute;
+    left: 61px;
+    margin-top: 408px;
+}
+	
+.se_checkbox37, .se_checkbox38, .se_checkbox40, .se_checkbox42, .se_checkbox43, .se_checkbox44,.se_checkbox47 {
+    margin: -5px 0 0px 0;
+   
+}
+.date_start {
+    font-size: 11px;
+}
+span.gm_drive_dir_l {
+    display: none!important;
+}
+
+form.gm_drive_dir {
+    display: none;
+}
+
+.desc_content {
+    background: white;
+    padding: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 0px none #000000;
+    margin-top: 10px;
+}
+
+.item_box.promotion.p_bold.clearfix:before {
+       content: '';
+    border: 3px solid #0E587C;
+    width: 220px;
+    position: absolute;
+    margin: 0px 0 0 10px;
+    height: 325px;
+}
+.p_bold .price {
+    background: #0E587C!important;
+    color: white!important;
+}
+
+
+
+.search_price>select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+font-size: 9px;
+}
+
+.search_price>#jm-allpage .jm-module.white-ms select:focus, #jm-allpage .jm-module.white-ms textarea:focus, #jm-allpage .jm-module.white-ms input[type="text"]:focus, #jm-allpage .jm-module.white-ms input[type="password"]:focus, #jm-allpage .jm-module.white-ms input[type="datetime"]:focus, #jm-allpage .jm-module.white-ms input[type="datetime-local"]:focus, #jm-allpage .jm-module.white-ms input[type="date"]:focus, #jm-allpage .jm-module.white-ms input[type="month"]:focus, #jm-allpage .jm-module.white-ms input[type="time"]:focus, #jm-allpage .jm-module.white-ms input[type="week"]:focus, #jm-allpage .jm-module.white-ms input[type="number"]:focus, #jm-allpage .jm-module.white-ms input[type="email"]:focus, #jm-allpage .jm-module.white-ms input[type="url"]:focus, #jm-allpage .jm-module.white-ms input[type="search"]:focus, #jm-allpage .jm-module.white-ms input[type="tel"]:focus, #jm-allpage .jm-module.white-ms input[type="color"]:focus {
+  
+    font-size: 20px!important;
+}
+
+input:focus:-moz-placeholder {color:transparent;}
+input:focus::-webkit-input-placeholder {color:transparent;}
+input:-moz-placeholder {font-style:italic;color:#ccc;}
+input::-webkit-input-placeholder {font-style:italic;color:#ccc;}
+
+#ex_fields>.djform_rowmvcud_lavlr {
+    display: none;
+}
+
+#DoubleFlds {
+    /* display: table-caption; */
+}
+
+#DoubleFlds>.djform_rowsat_rtlri,#DoubleFlds>.djform_rowmetro_stansiyas,#DoubleFlds>.djform_rowbinann_mrtb_say,#DoubleFlds>.djform_rowotaq_say,#DoubleFlds>.djform_rowsah_m2,#DoubleFlds>.djform_rowbinann_vziyyti,#DoubleFlds>.djform_rowtmir,#DoubleFlds>.djform_rowemlakn_sndi_,#DoubleFlds>.djform_rowkreditl_verilir,#DoubleFlds>.djform_rowelan_yerldirn,#DoubleFlds>.djform_rowtelefon,#DoubleFlds>.djform_rowwhatsapp,#DoubleFlds>.djform_rowsot,#DoubleFlds>.djform_rowyerldiyi_mrtb {
+display:none!important;
+}
+
+.djform_rowtelefon,.djform_rowwhatsapp {
+    display: none;
+}
+
+.item.promotion.p_special {
+    width: 222px;
+    height: 324px;
+}
+#top-banner {
+    width: 950px;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}

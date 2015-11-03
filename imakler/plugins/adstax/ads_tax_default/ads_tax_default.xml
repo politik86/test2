@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="adstax" method="upgrade">
+	<name>Taxation to Social Ads</name>
+	<author>TechJoomla</author>
+	<creationDate>12th May 2014</creationDate>
+	<version>3.0.1</version>
+	<copyright>Techjoomla. All Rights Reserved.</copyright>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Plugin for adding Taxation For Social Ads</description>
+	<files>
+		<filename plugin="ads_tax_default">ads_tax_default.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB/en-GB.plg_adstax_ads_tax_default.ini</language>
+ 	</languages>
+	<!-- parameters for Joomla 1.5.x -->
+	<params>
+		<param name="tax_per" type="text" default="12.5" label="PLG_TAX" description="PLG_TAX_DESC" />
+	</params>
+
+	<!-- Fields for Joomla 1.6.x and onwards -->
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="tax_per" type="text" default="12.5" label="PLG_TAX" description="PLG_TAX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

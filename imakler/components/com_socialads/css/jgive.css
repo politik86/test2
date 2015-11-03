@@ -1,0 +1,12 @@
+
+/*campaign-create*/
+.com_socialads_remove_button{
+position:relative; top:-90px; right:-665px;
+}
+.com_socialads_add_button{
+float:right;position: relative;top:-120px;
+}
+.com_socialads_repeating_block{
+border:1px dotted; padding:20px 0px 0px 5px; width:50%;
+}
+

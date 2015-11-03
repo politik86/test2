@@ -1,0 +1,71 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px){
+	div.adg_row .adg_cell.span3{
+		width: 50% !important;
+		float: left;
+	}
+	/* tables
+	.....................................*/
+	/* camping list */
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(6),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(7) {
+	    display: none !important;
+	}
+}
+
+/* Landscape phone to portrait tablet 
+-----------------------------------------*/
+@media (max-width: 767px){
+	div.adg_row .adg_cell.span3{
+		width: 50% !important;
+		float: left;
+	}
+	/* tables
+	.....................................*/
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(4),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(5),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(6),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(7) {
+	    display: none !important; 
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(1) {
+	    width: 7% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(2) {
+	    width: 10% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(3) {
+	    width: 42% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(8) {
+	    width: 25% !important;
+	}
+}
+
+/* mobile device
+-----------------------------------------*/
+@media (max-width: 480px) {
+	div.adg_row .adg_cell[class*="span"]{
+		width: 100% !important;
+	}
+	/* tables
+	.....................................*/
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(4),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(5),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(6),
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(7) {
+	    display: none !important; 
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(1) {
+	    width: 7% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(2) {
+	    width: 10% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(3) {
+	    width: 42% !important;
+	}
+	#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(8) {
+	    width: 25% !important;
+	}
+}

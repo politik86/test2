@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+    <name>Ad Agency Geo</name>
+    <author>iJoomla.com</author>
+    <creationDate>April 22, 2014</creationDate>
+    <copyright>(C) 2011 iJoomla.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>webmaster@ijoomla.com</authorEmail>
+    <authorUrl>ijoomla.com</authorUrl>
+    <version>5.0.0</version>
+    <description>This module is for TESTING ONLY, put it under special permission, it will show you how the Geo database sees you</description>
+    <files>
+        <filename module="mod_ijoomla_adagency_geo">mod_ijoomla_adagency_geo.php</filename>
+		<filename module="mod_ijoomla_adagency_geo">helper.php</filename>
+		<filename module="mod_ijoomla_adagency_geo">tmpl/default.php</filename>
+		<filename module="mod_ijoomla_adagency_geo">tmpl/mod_ijoomla_adagencygeo.css</filename>
+    </files>
+    <languages folder="languages">
+            <language tag="en-GB">en-GB.mod_ijoomla_adagency_geo.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">   
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module class suffix" />            
+            </fieldset>            
+        </fields>
+    </config>
+</extension>

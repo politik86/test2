@@ -1,0 +1,34 @@
+
+.ad-price-lable{
+/*text-align:right; */
+padding-right:5px; font-weight:normal; padding-left:0px;
+}
+
+/*ad-pricing ends here*/
+#undo{background-color:#fff; float:right; border:solid 1px #ccc; cursor:pointer;}
+
+/*helper class*/
+.ad_prev_main{  margin: 5px 5px;position: relative;}
+
+.ad_prev_wrap{ }
+
+.ad_prev_first{ font-size:13px; font-weight:bold; padding-left:5px; }
+
+.ad_prev_anchor:active{ padding:0; text-decoration:none; }
+
+.ad_prev_anchor{ font-weight:bold; }
+
+.ad_ignore_button{ float:right; cursor:pointer; }
+
+.ad_prev_img{ padding-left:5px; }
+
+.ad_prev_third{ font-size:13px; /*font-weight:bold;*/ padding-left:5px; }
+
+.ad_ignore_button_span{
+	position: absolute;
+	margin: 0px;
+	top: 5px;
+	right: 5px;
+	width:auto !important;
+}
+.ad_prev_main:hover .ad_ignore_button_span{ display:block !important}

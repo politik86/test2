@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+
+<metadata>
+	<view title="payment" >
+		<message><![CDATA[Make Payment]]></message>	
+		 <options var="task">
+ 			<default name="Make Payment" msg="Menu for make payment" />
+		  </options>
+	</view>	
+	<state>
+	<name>Make Payment</name>
+	<description>Menu for make payment</description>	 
+	</state>
+</metadata>
+

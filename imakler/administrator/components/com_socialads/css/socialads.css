@@ -1,0 +1,124 @@
+.icon-48-icon-48-social {
+background-image:url(../images/icon-48-social.png)!important;
+}
+
+.icon-reset {
+background:url(../images/social-reset.png) no-repeat center !important;
+}
+
+.setting-td {
+	width:50%;
+}
+
+.invalid{
+border-color:red;
+}
+
+span.latestbutton{
+color:#0B55C4;
+cursor: pointer;
+}
+span.latestbutton:hover{
+text-decoration:underline;
+}
+
+.setting-td input, .setting-td label{display:inline; float:none;}
+
+.current fieldset img{float:none;}
+
+.plug_enabled{color:green;}
+.plug_disabled{color:red;}
+
+.install_success{font-weight: bold; color: green;}
+.install_fail{font-weight: bold; color: red;}
+.install_link{font-weight:bold;}
+
+
+.icon-ok{
+clear:both;
+margin-bottom:7px;
+}
+
+.image_span
+{
+padding-left:5px;
+}
+
+.image
+{
+margin-bottom: 0; margin-top: 0;
+}
+
+
+
+.setting-td .sa_setting_radio{
+		float: none !important;
+		margin-right: 5px;
+}
+
+.setting-td label {
+		margin-right: 10px;
+}
+/* //vm:removed bz affecting on billing addres field
+.techjoomla-bootstrap textarea {
+width: 100% !important;
+}*/
+
+.techjoomla-bootstrap div.ad-form .form-horizontal .control-label {
+float: left;
+width: 160px;
+padding-top: 5px;
+text-align: right;
+}
+
+.techjoomla-bootstrap .socialads_settings .form-horizontal .control-label {
+margin-top: 0 !important;
+word-wrap: break-word;
+width: 400px !important;
+text-align: left !important;
+}
+.techjoomla-bootstrap .socialads_settings .form-horizontal .controls {
+margin-left: 400px !important;
+}
+.techjoomla-bootstrap .socialads_settings .form-horizontal .controls label{
+ clear: none !important;
+ margin-right: 10px;
+}
+
+
+.techjoomla-bootstrap .ad-details .ad-info .input-append a.modal{
+vertical-align:middle;
+border: 1px solid #2f96b4;
+}
+
+.techjoomla-bootstrap .sa-text-filter input{
+	margin:0px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.techjoomla-bootstrap .chzn-container{
+	max-width:150px !important;
+}
+
+.techjoomla-bootstrap #step1 fieldset.sa_fieldset label{
+float:none !important;
+}
+.techjoomla-bootstrap #step2 fieldset label, fieldset.sa_fieldset span.faux-label {
+clear: none !important;
+}
+
+.techjoomla-bootstrap #step2 fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button{
+float:none !important;
+}
+
+.techjoomla-bootstrap #step3 fieldset label, fieldset.sa_fieldset span.faux-label {
+clear: none !important;
+}
+
+.techjoomla-bootstrap #step5 fieldset label, fieldset span.faux-label {
+float:none !important;
+clear: none !important;
+}
+.techjoomla-bootstrap #step5 fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button{
+float:none !important;
+}

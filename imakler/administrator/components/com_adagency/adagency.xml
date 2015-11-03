@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>COM_ADAGENCY</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>September 16, 2015</creationDate>
+	<author>iJoomla</author>
+	<authorEmail>webmaster2@ijoomla.com</authorEmail>
+	<authorUrl>www.iJoomla.com</authorUrl>
+	<copyright>C) 2011 iJoomla.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>6.0.5</version>
+	<!-- The description is optional and defaults to the name -->
+	<description></description>
+	
+	<install>
+		<sql>
+			<file driver="mysqli" charset="utf8">sql/install.mysql.sql</file>
+			<file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+		</sql>
+	</install>
+
+	<!-- Runs on install/uninstall/update; New in 1.6 -->
+	<scriptfile>install_uninstall.php</scriptfile>
+
+	<!-- Site Main File Copy -->
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>adagency.php</filename>	
+		<filename>router.php</filename>
+		<filename>ijoomla_ad_agency_zone.php</filename>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>tables</folder>		
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+
+	<!-- Site language File Copy -->
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.com_adagency.ini</language>
+	</languages>
+	
+ 	<!-- Administrator File Copy -->
+	<administration>
+		<!-- Administrator language File Copy -->
+		<languages folder="admin">
+				<language tag="en-GB">language/en-GB/en-GB.com_adagency.ini</language>
+				<language tag="en-GB">language/en-GB/en-GB.com_adagency.sys.ini</language>				
+		</languages>
+	
+		<!-- Administration Menu Section -->
+		<menu img='../administrator/components/com_adagency/images/lm/adagicon.png'>COM_ADAGENCY</menu>
+		<submenu></submenu>
+		
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>adagency.php</filename>
+			<filename>controller.php</filename>
+			<filename>plugin_handler.php</filename>
+			<filename>index.html</filename>
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>includes</folder>
+			<folder>js</folder>
+			<folder>plugins</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<folder>all_modules</folder>
+		</files>		
+	</administration>
+</extension>

@@ -1,0 +1,52 @@
+// AdAgency @ 2015
+// Page: Ads
+//////////////////////////////////////////////
+
+.ada-campaigns {
+}
+
+.ada-campaigns-heading {
+  margin-bottom: 25px;
+  &--history {
+  	padding-top: 25px;
+  }
+}
+
+.ada-campaigns-title {
+}
+
+.ada-campaigns-subtitle {
+	line-height: 26px;
+}
+
+.ada-campaigns-actions {
+	form {
+		display: inline-block;
+		width: auto;
+	}
+}
+
+.ada-campaigns-filters {
+	margin-top: 25px;
+}
+
+.ada-campaigns-table,
+.uk-table-middle {
+	td {
+		vertical-align: middle;
+	}
+}
+
+.ada-campaigns-box {
+	margin-bottom: 25px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+// New Campaign
+.ada-add__campaign {
+	.input-append input {
+		padding-right: 85px;
+	}
+}

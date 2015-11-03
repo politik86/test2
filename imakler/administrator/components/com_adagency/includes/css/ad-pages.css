@@ -1,0 +1,46 @@
+/* Campaign list:
+---------------------------------------*/
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(1){
+	width: 4% !important;
+}
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(2){
+    width: 4% !important;
+}
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(3) {
+    width: 25% !important;
+}
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(4){
+    width: 7% !important;
+}
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(5) span{
+	/*width: 7% !important;*/
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+    font-size: 10px !important;
+    font-weight: normal !important;
+}
+#adg_campaing_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(8){
+    width: 19% !important;
+}
+
+/* Banner Lists
+----------------------------------------*/
+#adg_ads_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(1){
+    width: 4% !important;
+}
+#adg_ads_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(4){
+    width: 12% !important;
+}
+#adg_ads_list_table > .adg_table_row > .adg_cell[class*="span"]:nth-child(5){
+    width: 14% !important;
+}
+/* login page
+----------------------------------------*/
+#adagency_container #adg-form-login .adg_mod_title {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 4px 4px 0 0;
+    margin: -10px -10px 15px;
+    padding: 1px 15px;
+}

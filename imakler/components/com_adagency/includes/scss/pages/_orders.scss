@@ -1,0 +1,37 @@
+// AdAgency @ 2015
+// Page: Orders
+//////////////////////////////////////////////
+
+.ada-orders {
+	.uk-table {
+		margin-bottom: 0;
+	}
+}
+
+.ada-orders-heading {
+	margin-bottom: 25px;
+}
+
+.ada-orders-title {
+}
+
+.ada-orders-subtitle {
+	line-height: 26px;
+}
+
+.ada-orders-actions {
+	margin-bottom: 25px;
+
+	form {
+		display: inline-block;
+	}
+
+	@include xsmall {
+		form,
+		.uk-button {
+			width: 100%;
+			display: block;
+			margin-bottom: 5px;
+		}
+	}
+}

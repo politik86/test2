@@ -1,0 +1,235 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   VARIABLES import
+   ========================================================================== */
+  
+@import "template_variables.less";
+
+/* ==========================================================================
+   MIXINS import
+   ========================================================================== */
+  
+@import "template_mixins.less";
+@import "../../../plugins/system/jmframework/includes/assets/template/bootstrap/less/mixins.less";
+
+/* ==========================================================================
+   EXTENSIONS styles
+   ========================================================================== */
+ 
+/* CLASSIFIEDS */
+
+/* gutter */
+
+#dj-classifieds .dj-category .cat_row {
+  margin: 0 -@JMbaseSpace 0 0;
+}
+
+#dj-classifieds .dj-category .cat_col .cat_col_in {
+  padding: @JMbaseSpace @JMbaseSpace 0 0; 
+}
+
+#dj-classifieds .djcf_items_blog {
+  margin-left: 0;
+  margin-right: -@JMbaseSpace;
+}
+
+#dj-classifieds .djcf_items_blog .item_box_in {
+  margin: 0 @JMbaseSpace @JMbaseSpace 0;
+}
+
+.mod_djclassifieds_items .items {
+  margin-left: 0;
+  margin-right: -@JMbaseSpace;
+}
+
+.mod_djclassifieds_items .items-col .icol-in {
+  padding: 0 @JMbaseSpace 0 0;
+}
+
+/* readmore */
+
+#dj-classifieds .see_details_box a:after {
+  right: auto;
+  left: -20px;
+}
+
+#dj-classifieds .see_details_box a:hover:after {
+  right: auto;
+  left: 15px;
+}
+
+/* DJMEDIATOOLS */
+
+.dj-slide-title,
+.dj-slide-desc-text,
+.dj-slide-desc-text a {
+  text-align: right!important;    
+}
+
+/* Extra from Classifieds */
+
+#jm-allpage .dj-extra {
+  float: right!important;
+  margin: 0 0 0 20px!important;
+}
+
+/* Album View */
+
+#djmediatools a.dj-category {
+  float: right!important;
+}
+
+.dj-galleryGrid .dj-slide {
+  float: right!important;
+}
+
+/* readmore */
+
+.dj-readmore-wrapper {
+  text-align: left !important;
+}
+
+.djslider {
+  direction: ltr !important;
+}
+
+.djslider .navigation-container-custom {
+  direction: rtl !important;
+}
+
+.dj-slideshowThumbs .dj-indicators-in {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.dj-slideshowThumbs .dj-load-button {
+  float: right !important;
+}
+
+.dj-slideshowThumbs .dj-load-buton {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.dj-tabber .dj-tab-active img,
+.dj-tabber .dj-tab img {
+  margin-right: 0!important;
+  margin-left: 25px!important;
+}
+
+.dj-tabber .dj-tab:after {
+  left: auto;
+  right: 5%;
+}
+
+.box_skitter .info_slide {
+  left: auto;
+  right: 15px;
+}
+
+.box_skitter .info_slide .image_number {
+  float: right!important;
+  margin-left: 0!important;
+  margin-right: 5px!important;
+}
+
+.skitter-square .prev_button,
+.skitter-square .next_button {
+  right: auto!important;
+}
+
+.skitter-square .prev_button {
+  left: 10px!important;
+}
+
+.skitter-square .next_button {
+  left: 65px!important;
+}
+
+/** navigation **/
+ 
+.dj-navigation {
+  left: auto;
+  right: 0;
+  .dj-play,
+  .dj-pause {
+    margin-left: 0!important;
+    margin-right: -32px!important;
+  }
+}
+
+/* slider1-ms */
+
+.slider1-ms .dj-slide-desc-text {
+  padding: 30px 30px 30px 120px !important;
+  margin-right: 0!important;
+  margin-left: 10px!important;
+}
+
+.slider1-ms .dj-readmore-wrapper {
+  left: -10px; 
+  right: auto;
+}
+
+.slider1-ms .dj-readmore-wrapper a {
+  left: auto;
+  right: 0;
+}
+
+.slider1-ms .dj-readmore-wrapper a:after {
+  right: auto;
+  left: 0;
+  border-width: 0 10px 10px 0;
+}
+
+/* mslider slider1 */
+
+.slider1-ms .dj-mslider .dj-slide-desc-text {
+  margin-right: 0!important;
+  margin-left: 5px!important;
+  padding: 5px 12px 5px 60px !important;
+}
+
+.slider1-ms .dj-mslider .dj-readmore-wrapper {
+  right: auto;
+  left: -5px;
+}
+
+.slider1-ms .dj-mslider .dj-readmore-wrapper a:after {
+  border-width: 0 5px 5px 0;
+}
+
+/* slider slider1 */
+
+.slider1-ms .djslider-loader .dj-slide-desc-text {
+  margin-right: 0!important;
+  margin-left: 5px!important;
+  padding: 5px 12px 5px 60px !important;
+}
+
+.slider1-ms .djslider-loader .dj-readmore-wrapper {
+  right: auto;
+  left: -5px;
+}
+
+.slider1-ms .djslider-loader .dj-readmore-wrapper a:after {
+  border-width: 0 5px 5px 0;
+}
+
+/* slider2 */
+
+#jm-allpage .slider2-ms .dj-readmore-wrapper a:after {
+  right: auto;
+  left: -20px;
+}
+
+#jm-allpage .slider2-ms .dj-readmore-wrapper a:hover:after {
+  right: auto;
+  left: 15px;
+}

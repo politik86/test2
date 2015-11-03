@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+    <name>Ad Agency Remote</name>
+    <author>iJoomla.com</author>
+    <creationDate>November 17, 2014</creationDate>
+    <copyright>(C) 2011 iJoomla.com</copyright><license>GNU General Public License, version 2 http://www.ijoomla.com/licensing/</license>
+<authorEmail>webmaster@ijoomla.com</authorEmail>
+    <authorUrl>www.ijoomla.com</authorUrl>
+    <version>5.0.0</version>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Install this module on any Joomla site you'd like your ads to display. Open the zone and find the URL and ID at the bottom and enter it on this module's backend</description>
+    <files>
+        <filename module="mod_ijoomla_adagency_remote">mod_ijoomla_adagency_remote.php</filename>
+ 		<filename module="mod_ijoomla_adagency_remote">helper.php</filename>
+		<filename module="mod_ijoomla_adagency_remote">tmpl/default.php</filename>
+		<filename module="mod_ijoomla_adagency_remote">tmpl/mod_adagencyremote.css</filename>
+	</files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="website_url" type="text" default="" label="Website URL" description="Enter the link of the website that is using the Ad Agency component (i.e. http://www.example.com)" />
+                <field name="zone_id" type="text" default="" label="Zone ID" description="Enter the ID of the zone that you would like to be seen in this module." />
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module class suffix" />
+            </fieldset>            
+        </fields>
+    </config>    
+
+</extension>

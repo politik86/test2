@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   MODULES styles
+   ========================================================================== */
+
+.span0 {
+  float: none !important;
+}
+
+/* default module */
+
+.jm-module {
+  margin-bottom: @JMbaseSpace;
+  .jm-title {
+    font-weight: 700;
+    margin: 0 0 25px;
+    color: @JMmoduleTitleFontColor;
+  }
+}
+
+.jm-footer .jm-module {
+  color: @JMfooterModuleTitleFontColor;
+  .jm-title {
+    color: @JMfooterModuleFontColor;
+  }
+}
+
+.moduletable {
+  margin-bottom: @JMbaseSpace;
+  > h3 {
+    font-weight: 700;
+    margin: 0 0 25px;
+    color: @JMmoduleTitleFontColor;
+    font-size: 18px;
+  }
+}
+
+/* nomargin-ms */
+
+#jm-allpage .jm-module.nomargin-ms {
+    margin: 0;
+}
+
+/* white-ms */
+
+#jm-allpage .jm-module.white-ms {
+  padding: 20px;
+  background: @JMwhitemsBackground;
+  .box-shadow(0 1px 1px 0 rgba(0,0,0, 0.1));
+  color: @JMwhitemsFontColor;
+  .jm-title {
+    color: @JMwhitemsTitleFontColor;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid @JMwhitemsTitleBorderBottom;
+  }
+}
+
+#jm-allpage .jm-module.white-ms {
+  select, 
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    border: 1px solid @JMwhitemsInputBorder;
+    background: @JMwhitemsInputBackground;
+    &:focus {
+      border: 1px solid @JMwhitemsInputFocusBorder;
+    }
+  }
+}
+
+/* title-box-ms */
+
+#jm-allpage .jm-module.title-box-ms .jm-title {
+  color: @JMtitleboxmsTitleFontColor;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 20px;
+  background: @JMtitleboxmsBackground;
+}
+
+/* double-title-ms */
+
+.jm-module.double-title-ms .jm-title {
+  color: @JMdoubletitlemsTitleFontColor;
+  font-size: 78px!important;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.9em;
+  padding: 0 0 35px;
+  margin: 0 0 35px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    max-width: 100%;
+    height: 2px;
+    background: @JMdoubletitlemsTitleBorderBottom;
+    left: 50%;
+    margin-left: -85px;
+    bottom: 0;
+  }
+  span {
+    color: @JMdoubletitlemsTitleFontColor;
+    font-size: 28px!important;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.2em;
+  }
+}
+
+.jm-footer .jm-module.double-title-ms {
+  .jm-title,
+  .jm-title span {
+    color: @JMFooterDoubletitlemsTitleFontColor;
+  }
+  .jm-title:after {
+    background: @JMFooterDoubletitlemsTitleBorderBottom;
+  }
+}
+
+/* jm-search */
+
+#jm-allpage .jm-search {
+  form {
+    margin: 0;
+    position: relative;
+  }
+  .inputbox.first_input,
+  .inputbox.jm-search {
+    margin: 0;
+    color: @JMsearchInputFontColor;
+    font-size: 14px;
+    background: @JMsearchInputBackground;
+    width: 100%!important;
+    height: 55px;
+    line-height: 55px;
+    min-height: 55px;
+    border-style: solid;
+    border-width: 3px;
+    max-width: 100%;
+    padding-right: 60px;
+  }
+  button.button,
+  input.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0;
+    padding: 0;
+    width: 55px;
+    height: 55px;
+    background-image: url('../images/search.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    .transition(background-color 0.2s ease-in);
+  }
+}
+
+#jm-allpage .jm-search .inputbox.first_input + div,
+#jm-allpage .jm-search .inputbox.jm-search + div {
+  margin-top: 30px!important;
+  display: inline-block;
+  width: 100%;
+  .box-sizing(border-box);
+}
+
+/* logout topbar */
+
+#jm-topbar {
+  div.login-greeting,
+  .logout-button {
+    display: inline-block;
+  }
+  .logout-button .btn {
+    font-size: 10px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 15px;
+    vertical-align: baseline;
+    margin-left: 10px!important;
+  }
+}
+
+/* jmmoduleraw */
+    
+.jm-module-raw {
+    float: right;
+    margin-left: 10px;
+}

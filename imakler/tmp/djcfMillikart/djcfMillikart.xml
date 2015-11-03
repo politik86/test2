@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="djclassifiedspayment"  method="upgrade">
+	<name>DJ Classifieds Millikart payment</name>
+	<author>biolev.com</author>
+	<creationDate>September 2015</creationDate>
+	<copyright>Copyright (C) 2015 biolev.com, All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>info@biolev.com</authorEmail>
+	<authorUrl>http://biolev.com</authorUrl>
+	<version>3.1</version>
+	<description>DJ Classifieds Millikart payment</description>
+	<files>
+		<filename plugin="djcfMillikart">djcfMillikart.php</filename>
+		<folder>djcfMillikart</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_djclassifiedspayment_djcfMillikart.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="mid" type="text" size="50" default="" label="Merchant ID" description="Millikart Merchant ID"/>
+		        <field name="key" type="text" size="50" default="" label="Secret key" description="Millikart Secret key">
+		        <field name="test" type="radio" default="1" label="Test Mode" description="Select No for Production">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="currency_code" type="text" size="50" default="944" label="Currency code" description="Transaction currency code (ISO 4217)"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

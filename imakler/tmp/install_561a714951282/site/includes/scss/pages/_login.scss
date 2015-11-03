@@ -1,0 +1,44 @@
+// AdAgency @ 2015
+// Page: Login & Register
+//////////////////////////////////////////////
+
+// Login
+.ada-login {
+}
+
+.ada-login-heading {
+  margin-bottom: 25px;
+}
+
+.ada-login-title {
+}
+
+.ada-login-subtitle {
+  line-height: 26px;
+}
+
+.ada-login-box {
+  input[type="text"],
+  input[type="password"] {
+    width: 100% !important;
+  }
+}
+
+// Register
+.ada-register {
+}
+
+.ada-register-heading {
+  margin-bottom: 25px;
+}
+
+.ada-register-box {
+  margin-top: 25px;
+  legend:after {
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+  }
+
+  @include medium {
+    margin-top: 0;
+  }
+}

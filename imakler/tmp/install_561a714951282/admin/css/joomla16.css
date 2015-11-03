@@ -1,0 +1,120 @@
+#adminForm input {
+	float: none;
+	width: auto;
+    min-width: 50px;
+	margin: 0;
+}
+
+#adminForm fieldset img {
+    float: none;
+    margin: 0;
+    
+}
+
+#adminForm fieldset p {
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+#adminForm td {
+    font-size: inherit;
+    padding: 3px;
+}
+#campChoices td {
+    font-size: inherit;
+    padding: 0;
+}
+
+#adminForm input[type=radio] {
+	/* margin-right: 5px; */
+}
+#package_price td {
+    padding: 5px 0;
+}
+#package_zones td {
+    padding: 2px 0;
+}
+/*
+#adminForm label {
+    font-size: 11px;
+	float: none;
+	width: auto;
+    margin: 0;
+    padding: 0;
+	display: inline;
+	clear: none;
+}*/
+
+.embed_title {
+    clear: both;
+}
+
+#adminForm #adsize input, #adminForm .embed_container input, #zone_embed_ignore input {
+	float: none;
+}
+/*
+#adminForm fieldset {
+	border: 1px solid silver;
+	padding: 10px;
+}
+*/
+#adminForm .current {
+	background-color: #FFFFFF;
+}
+
+.hasTip img, #start_date_img {
+	margin: 0 5px;
+	float: none;
+}
+
+#all_none_select {
+	font-size: 0.9em;
+}
+
+#supported_banners input[type=checkbox] {
+	margin-right: 5px;
+}
+
+#supported_banners p {
+	margin: 0 0 5px;
+	font-size: 1em; 
+}
+
+#adminForm.adagency-configs input {
+	float: none;
+}
+
+#adminForm.adagency-configs input[type=radio], #adminForm.adagency-configs input[type=checkbox] {
+	margin: 0 5px;
+}
+
+#adminForm.adagency-configs img.adagency_video {
+	margin: 0 5px 0 0;
+	float: none;
+}
+
+#adagencyconfigs-mail input.inputbox {
+	margin-bottom: 10px;
+}
+#geo_targeting_table .bit-input, #geo_targeting_table .maininput {
+  margin: 0 !important;
+}
+
+.agency_subtitle {
+    border-bottom: 1px dashed #CCCCCC;
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 20px 0 5px;
+}
+
+
+.agency_jom_questions {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 10px 0;
+    border-bottom: 1px dotted #eee;
+    margin-bottom: 10px;
+}

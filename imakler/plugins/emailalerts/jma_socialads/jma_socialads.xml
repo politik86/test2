@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="emailalerts" method="upgrade">
+	<name>SocialAds for J!MailAlerts</name>
+	<creationDate>12th May 2014</creationDate>
+	<version>3.0.1</version>
+	<author>Techjoomla</author>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<copyright>(c) Techjoomla</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>
+		This Plugin pulls ads from SocialAds to the J!MailAlerts component.
+	</description>
+
+	<files>
+		<filename plugin="jma_socialads">jma_socialads.php</filename>
+	<folder>jma_socialads</folder>
+	</files>
+
+	<languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.plg_emailalerts_jma_socialads.ini</language>
+    </languages>
+
+
+   <!-- parameters for Joomla 3.0.x -->
+    <params>
+		<param name="plugintitle" type="text" default="SocialAds" label="LBL_PLUGIN_TITLE_LU" description="DESC_PLUGIN_TITLE_LU" />
+		<param name="is_special" type="radio" default="1" label="SPL_DISP" description="DESC_SPL_DISP">
+			<option value="1">SA_YES</option>
+			<option value="0">SA_NO</option>
+		</param>
+		<param name="zone" type="sql" default="1" label="SEL_ZONE" query="SELECT id , zone_name FROM #__ad_zone WHERE published = 1 "  key_field="id" value_field="zone_name" description="DESC_SEL_ZONE"/>
+		<param name="num_ads" type="text" default="5" class="required validate-numeric inputbox" label="NO_OF_ADS" description="DESC_NO_OF_ADS" />
+		<param name="no_rand" type="radio" default="0" label="DISP_RAND" description="DESC_DISP_RAND">
+			<option value="1">SA_YES</option>
+			<option value="0">SA_NO</option>
+		</param>
+		<param name="owner_ad" type="radio" default="0" label="OWN_ADS" description="OWN_ADS_DES">
+				<option value="1">SA_YES</option>
+				<option value="0">SA_NO</option>
+		</param>
+		<param name="create" type="radio" default="1" label="ADLINK" description="ADLINK_DES">
+				<option value="1">SA_YES</option>
+				<option value="0">SA_NO</option>
+		</param>
+		<param name="create_text" type="text" default="Create an Ad" label="TEXT_ADLINK" description="TEXT_ADLINK_DES" />
+
+	</params>
+
+
+  <!-- Fields for Joomla 1.6.x and onwards -->
+
+	<config name="params">
+  	<fields name="params">
+    	<fieldset name="basic" label="Plugin Parameters">
+				<field name="plugintitle" type="text" default="SocialAds" label="LBL_PLUGIN_TITLE_LU" description="DESC_PLUGIN_TITLE_LU" />
+				<field name="is_special" type="radio" default="1" label="SPL_DISP" description="DESC_SPL_DISP">
+					<option value="1">SA_YES</option>
+					<option value="0">SA_NO</option>
+				</field>
+				<field name="zone" type="sql" default="1" label="SEL_ZONE" query="SELECT id , zone_name FROM #__ad_zone WHERE published = 1 "
+								key_field="id" value_field="zone_name" description="DESC_SEL_ZONE"/>
+				<field name="num_ads" type="text" default="5" class="required validate-numeric inputbox" label="NO_OF_ADS" description="DESC_NO_OF_ADS" />
+				<field name="no_rand" type="radio" default="0" label="DISP_RAND" description="DESC_DISP_RAND">
+					<option value="1">SA_YES</option>
+					<option value="0">SA_NO</option>
+				</field>
+				<field name="owner_ad" type="radio" default="0" label="OWN_ADS"	description="OWN_ADS_DES">
+					<option value="1">SA_YES</option>
+					<option value="0">SA_NO</option>
+				</field>
+				<field name="create" type="radio" default="1" label="ADLINK" description="DESC_ADLINK">
+						<option value="1">SA_YES</option>
+						<option value="0">SA_NO</option>
+				</field>
+				<field name="create_text" type="text" default="Create an Ad" label="TEXT_ADLINK" description="DESC_TEXT_ADLINK" />
+       </fieldset>
+		</fields>
+	</config>
+
+</extension>

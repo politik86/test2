@@ -1,0 +1,127 @@
+.mainwrap table {
+	width:100%;
+}
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+	text-align:left;
+}
+
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+
+.dtree a.node,.dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+
+.dtree a.node:hover,.dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+
+.calendar {
+	border:none;
+	vertical-align:bottom;
+}
+
+.navtreewrap {
+	border-width:1px; border-color:#D5D5D5; border-style:solid;
+}
+
+.w145 {
+	width: 145px;
+}
+
+.adslim {
+    color: #FF0000;
+}
+
+#hidden_adagency {
+    display: none;
+}
+
+#compress_adag {
+    margin: auto 20px auto auto;
+    font-weight: bold;
+}
+
+#adagency_log {
+    background: none repeat scroll 0 0 #F2F2F2;
+    height: 200px;
+    margin: 15px 0 0;
+    overflow: hidden;
+    width: 500px;
+}
+#loginfo {
+    margin: 0;
+    padding: 8px;
+}
+#adagency_log .jspContainer {
+    background: #FFFFFF;
+}
+.adag_bold {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.adag_note {
+    color: #FF0000;
+    display: inline-block;
+    margin: 3px 0;
+    font-size: 12px;
+}
+.adag_normal {
+    font-size: 12px;
+}
+#adag-next {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #F2F2F2;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    height: 15px;
+    padding: 4px;
+    text-align: center;
+    width: 130px;
+    cursor: pointer;
+}
+#geo_container input {
+   margin: 3px !important;
+}
+div#element-box div.m {
+    background: #FFFFFF !important;
+}
+.jom_select, .jom_checkbox, .jom_radio, .jom_birthdate {
+	margin-left: 75px;
+}
+.jom_groupname {
+	font-weight: bold;
+}
+.jom_groupopt {
+	padding: 5px 0;
+}
+.jom_select input, .jom_checkbox input, .jom_radio input {
+	margin-right: 2px !important;
+}
+.jom_opttitle {
+  display: inline-block !important; 
+  float: left !important;
+  width: 75px !important;
+}

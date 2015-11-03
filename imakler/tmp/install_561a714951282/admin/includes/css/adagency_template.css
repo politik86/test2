@@ -1,0 +1,120 @@
+.ad-agency-content .ijadagencypackage .componentheading, .ad-agency-content .adagency_overview .componentheading, 
+.ad-agency-content .ijadagencyadvertisersreg .componentheading, .ad-agency-content .ijadagencycpanel .componentheading,
+.ad-agency-content .ijadagencyadvertisers .componentheading, .ad-agency-content .ijadagencyads .componentheading,
+.ad-agency-content .ijadagencystandard  .componentheading, .ad-agency-content .ijadagencyflash .componentheading, 
+.ad-agency-content .ijadagencyadcode .componentheading, .ad-agency-content .ijadagencypopup .componentheading,
+.ad-agency-content .ijadagencytransition .componentheading, .ad-agency-content .ijadagencyfloating .componentheading,
+.ad-agency-content .ijadagencytextlink .componentheading, .ad-agency-content .ijadagencycampaigns .componentheading,
+.ad-agency-content .ijadagencycampaigns2 .componentheading, .ad-agency-content .ijadagencyreports .componentheading,
+.ad-agency-content .ijadagencyorders .componentheading {
+    /*font-size: 1.5em;*/
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.ad-agency-content .ijadagencypackage .sectiontableheader, .ad-agency-content .adagency_overview .sectiontableheader,
+.ad-agency-content .ijadagencyads .sectiontableheader, .ad-agency-content .ijadagencycampaigns .sectiontableheader,
+.ad-agency-content .componentheading .sectiontableheader, .ad-agency-content .ijadagencyorders .sectiontableheader {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-right: none;
+    font-weight: bold;
+    color: #000000; 
+    padding: 4px 0 2px 4px;
+}
+.ad-agency-content #adagency_order_table {
+    border-collapse: separate;
+    border: none;
+}
+.ad-agency-content #adagency_order_table tr, .ad-agency-content #adagency_order_table td {
+    border: none;
+}
+.ad-agency-content .adagency_overview table, .ad-agency-content .ijadagencypackage table {
+    border-collapse: collapse;
+}
+
+.ad-agency-content #adagency_container tr, .ad-agency-content #adagency_container td {
+    border: none;
+}
+.ad-agency-content #adagency_container td {
+    padding: 5px;
+}
+.ad-agency-content #adagency_container .sectiontableheader {
+    font-weight: bold;
+    padding: 10px;
+}
+.ad-agency-content #cpanel_icons a {
+    text-decoration: none;
+}
+.ad-agency-content #adagency_container .adaglogintable {
+    border-collapse: separate;
+}
+.ad-agency-content #adagency_container .ad_imgs_bnr {
+    border: 0;
+}
+.ad-agency-content #camp_buts td {
+    padding-right: 7px;
+}
+.ad-agency-content #adagency_container #country_container input {
+    margin: 3px;
+}
+.ad-agency-content #tbdy .holder li {
+    padding-left: 5px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 1000;
+    margin: 2px;
+}
+.ad-agency-content #tbdy .holder {
+    padding: 2px;
+}
+.ad-agency-content .row {
+    background: #FFFFFF;
+}
+.ad-agency-content .row1 {
+    background: #EEEEEE;
+}
+.ad-agency-content .agency_subtitle
+{
+font-size: 22px; line-height: 24px;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #cccccc;
+display:block;
+margin:20px 0px 5px 0px;
+}
+.ad-agency-content .agency_label
+{
+font-weight:normal;
+font-size: 14px; line-height: 18px;
+}
+.ad-agency-content .agency_textbox,.agency_checkbox
+{
+	border: 1px double #CCCCCC;
+
+}
+.ad-agency-content .jom_groups{
+font-weight:bold;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #eeeeee;
+font-size: 18px; line-height: 22px;
+color: #666666;
+display:block;
+padding:10px 0px 0px 0px;
+}
+.ad-agency-content .agency_jom_questions{
+font-weight:bold;
+font-size: 16px; line-height: 18px;
+display:block;
+padding:15px 0px 5px 0px;
+}
+
+.ad-agency-content .agency_jom_answers
+{
+font-weight:normal;
+font-size: 14px; line-height: 16px;
+}
+.ad-agency-content .agency_comment{
+font-weight:normal;
+color:#FF9900;
+font-size:12px;
+}

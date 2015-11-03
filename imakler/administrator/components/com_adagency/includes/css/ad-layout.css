@@ -1,0 +1,80 @@
+/*====================================
+    section, row and column
+=====================================*/
+.ij_adagency_container [class*="_row"]:after,
+.ij_adagency_container [class*="_row"]:before{
+	content: " ";
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 0;
+}
+/* row */
+.ij_adagency_container .adg_row{
+	margin-left: -20px !important;
+	/*margin-right: -20px !important;*/
+}
+.ij_adagency_container .adg_row.adg_table_row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+/* cell */
+.ij_adagency_container .adg_row > .adg_cell > div{
+	padding: 5px 0 0 20px !important;
+}
+.ij_adagency_container .adg_row.adg_table_row > .adg_table_cell{
+	padding: 5px 5px !important;
+}
+.ij_adagency_container .adg_table_row .adg_cell > div{
+	padding: 0 !important;
+} 
+
+/*internal greeding
+-------------------------------------*/
+.ij_adagency_container [class*="span"]{
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+	margin-left: 0 !important;
+}
+.ij_adagency_container .span1{
+	width: 8.33333% !important;
+}
+.ij_adagency_container .span1{
+	width: 8.33333% !important;
+}
+.ij_adagency_container .span2{
+	width: 16.6667% !important;
+}
+.ij_adagency_container .span3{
+	width: 25% !important;
+}
+.ij_adagency_container .span4{
+	width: 33.3333% !important;
+}
+.ij_adagency_container .span5{
+	width: 41.6667% !important;
+}
+.ij_adagency_container .span6{
+	width: 50% !important;
+}
+.ij_adagency_container .span7{
+	width: 58.3333% !important;
+}
+.ij_adagency_container .span8{
+	width: 66.6667% !important;
+}
+.ij_adagency_container .span9{
+	width: 75% !important;
+}
+.ij_adagency_container .span10{
+	width: 83.3333% !important;
+}
+.ij_adagency_container .span11{
+	width: 91.6667% !important;
+}
+.ij_adagency_container .span12{
+	width: 100% !important;
+}
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/

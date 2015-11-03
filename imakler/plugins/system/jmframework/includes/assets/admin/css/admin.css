@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** ADMINISTRATOR BACKEND STYLES ***********************/
+
+span.jmtext label {
+	font-weight: bold;
+}
+
+code.jm_code {
+	margin-top: 0;
+    padding: 4px 8px;
+    vertical-align: middle;
+    display: inline-block;
+}

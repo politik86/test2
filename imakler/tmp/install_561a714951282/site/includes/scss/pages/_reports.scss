@@ -1,0 +1,371 @@
+// AdAgency @ 2015
+// Page: Reports
+//////////////////////////////////////////////
+
+.ada-reports {
+}
+
+.ada-reports-heading {
+	margin-bottom: 25px;
+}
+
+.ada-reports-title {
+}
+
+.ada-reports-form {
+	border-top: 1px solid rgba(0,0,0, 0.1);
+	margin-top: 25px;
+}
+
+.ada-reports-box {
+	padding: 10px;
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+// modifier: primary
+.ada-reports-box--primary {
+	border: 3px solid #4caf50;
+	background-color: #e8f5e9;
+	color: black;
+	.ada-reports-box-counter {
+		color: #388e3c;
+	}
+}
+
+// modifier: secondary
+.ada-reports-box--secondary {
+	border: 3px solid #9ccc65;
+	background-color: #f1f8e9;
+	color: black;
+	.ada-reports-box-counter {
+		color: #558b2f;
+	}
+}
+
+.ada-reports-box-row {
+	display: table;
+	wdith: 100%;
+	&:first-child {
+		padding-bottom: 10px;
+		border-bottom: 1px solid rgba(0,0,0, 0.05);
+	}
+	&:last-child {
+		padding-top: 10px;
+	}
+}
+
+.ada-reports-box-title {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.ada-reports-box-counter {
+	display: table-cell;
+	text-align: right;
+	width: 100%;
+	vertical-align: middle;
+	a,
+	span {
+		display: block;
+		padding: 2px 8px;
+		border-radius: 4px;
+		background-color: white;
+		font-weight: normal;
+		// box-shadow
+		box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+		-webkit-box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+		-moz-box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+	}
+	a:hover, a:focus, a.active {
+		// box-shadow
+		box-shadow: 0 0 0 3px rgba(0,0,0, 0.15);
+		-webkit-box-shadow: 0 0 0 3px rgba(0,0,0, 0.15);
+		-moz-box-shadow: 0 0 0 3px rgba(0,0,0, 0.15);
+	}
+}
+
+.ada-reports-range {
+	padding-bottom: 25px;
+}
+
+.ada-reports-range-heading {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.ada-reports-range-title {
+}
+
+.ada-reports-range-data {
+	> span {
+		display: block;
+		.uk-button {
+			height: 34px;
+			line-height: 32px;
+		}
+	}
+	input,
+	input[type="text"] {
+		height: 34px !important;
+		width: 100%;
+	}
+	.btn {
+		margin-left: -39px !important;
+		height: 34px !important;
+		z-index: 1000;
+		position: relative;
+		border-color: rgba(0,0,0, 0.1);
+	}
+	.input-append {
+		width: 100%;
+	}
+
+	@include large {
+		> span {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 5px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		input,
+		input[type="text"] {
+			width: auto;
+		}
+		.input-append {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.ada-reports-range-options {
+	margin-top: 25px;
+
+	@include large {
+		margin: 0;
+	}
+}
+
+.ada-reports-range-list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+
+	li {
+		display: block;
+		width: 100%;
+		text-align: center;
+		&:first-child {
+			a {
+				border-top-left-radius: 4px;
+				border-bottom-left-radius: 4px;
+			}
+		}
+		&:last-child {
+			a {
+				border-top-right-radius: 4px;
+				border-bottom-right-radius: 4px;
+			}
+		}
+	}
+
+	a {
+		color: black;
+		display: block;
+		padding: 2 4px;
+		border: 1px solid #ddd;
+		height: 34px;
+		line-height: 32px;
+		margin-top: -1px;
+		margin-left: -1px;
+		position: relative;
+		&:hover, &:focus, &.active {
+			color: white;
+			background-color: #90caf9;
+			border-color: #64b5f6;
+			text-decoration: none;
+			z-index: 1;
+		}
+	}
+
+	@include small {
+		display: table;
+		width: 100%;
+		li {
+			display: table-cell;
+			width: auto;
+		}
+		a {
+			margin-top: 0;
+		}
+	}
+}
+
+.ada-reports-filters {
+	border-top: 1px solid rgba(0,0,0, 0.1);
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+.ada-reports-graph {
+	border: 3px solid #7BBCE7;
+	border-radius: 6px;
+}
+
+#td_lines {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	vertical-align: bottom;
+}
+
+#sum_line {
+	text-align: right;
+
+	> div {
+		padding-left: 8px;
+	}
+
+	> div:last-child {
+		padding-right: 8px;
+	}
+}
+
+.ada-reports-graph-legend {
+	list-style: none;
+	margin-left: 0;
+	padding: 10px 15px;
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
+
+	> li {
+		display: inline-block;
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	span {
+		margin-right: 5px;
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		border-radius: 3px;
+		background-color: #789;
+	}
+
+	.legend-impressions {
+		background-color: #FF4E6D;
+	}
+
+	.legend-clicks {
+		background-color: #03C8FA;
+	}
+
+	.legend-ctr {
+		// default color
+	}
+}
+
+.ada-reports-graph-charts {
+	width: 100%;
+	overflow-x: scroll;
+	padding-bottom: 15px;
+
+	table {
+		width: 100%;
+		max-width: 100%;
+		background-color: transparent;
+	}
+
+	> table {
+		td,
+		tr td {
+			border: none;
+		}
+	}
+
+	.element {
+		vertical-align: bottom;
+		border-right: 1px solid #D9DDE1;
+		border-left: 1px solid transparent;
+		padding-bottom: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		* {
+			vertical-align: bottom;
+		}
+
+		div > div {
+			&:nth-child(2n) {
+				padding-left: 2px;
+				padding-right: 2px;
+			}
+		}
+	}
+
+	.element-label {
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.nr-total {
+		display: inherit;
+		position: relative;
+		text-align: center;
+		top: -20px;
+	}
+
+	.impressions,
+	.clicks,
+	.ctr {
+		width: 100%;
+		margin-right: 100%;
+		border-radius: 4px;
+	}
+
+	.impressions {
+		background-color: #FF4E6D;
+	}
+
+	.clicks {
+		background-color: #03C8FA;
+	}
+
+	.ctr {
+		background-color: #789;
+	}
+}
+
+.ada-reports-table {
+	margin-top: 25px;
+}
+
+.ada-reports-table-heading {
+	.dropdown-menu {
+		min-width: 113px !important;
+	}
+
+	.uk-button-dropdown {
+		margin-top: 15px;
+		@include medium {
+			margin-top: 0;
+		}
+	}
+}
+
+.ada-reports-table-title {
+}
+
+.da-reports-table-opt {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

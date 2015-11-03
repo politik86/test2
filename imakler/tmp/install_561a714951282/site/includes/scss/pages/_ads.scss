@@ -1,0 +1,79 @@
+// AdAgency @ 2015
+// Page: Ads
+//////////////////////////////////////////////
+
+.ada-ads {
+}
+
+.ada-ads-heading {
+  margin-bottom: 25px;
+}
+
+.ada-ads-title {
+}
+
+.ada-ads-subtitle {
+	line-height: 26px;
+}
+
+.ada-ads-options {
+}
+
+.ada-add__ads {
+	.ada-ads-heading {
+		margin-bottom: 35px;
+	}
+}
+
+.ada-ads-box {
+	display: table;
+	@include medium {
+		padding-bottom: 25px;
+	}
+}
+
+.ada-ads-box-image,
+.ada-ads-box-body {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.ada-ads-box-image {
+	width: 60px;
+	text-align: center;
+	span {
+		font-size: 32px;
+	}
+	a {
+		background-color: #e3f2fd;
+		border-radius: 6px;
+		display: block;
+		color: #0088cc;
+		padding: 10px;
+		&:hover, &:focus, &.active {
+			color: #005599;
+		}
+	}
+
+	@include large {
+		width: 100px;
+		span {
+			font-size: 48px;
+		}
+	}
+}
+
+.ada-ads-box-body {
+	padding-left: 15px;
+}
+
+.ada-ads-box-title {
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ada-ads-box-desc {
+	color: #555;
+	font-size: 12px;
+}

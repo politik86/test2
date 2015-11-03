@@ -1,0 +1,27 @@
+// AdAgency @ 2015
+// Media Queries
+//////////////////////////////////////////////
+
+@mixin xsmall {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: 960px) {
+    @content;
+  }
+}

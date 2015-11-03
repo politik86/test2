@@ -1,0 +1,500 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   LAYOUT styles
+   ========================================================================== */
+
+#jm-allpage {
+  position: relative;
+  background: @JMallpageBackground;
+}
+
+/** bar **/
+
+#jm-bar {
+  background: @JMbarBackground;
+  .box-shadow(0 1px 1px 0 rgba(0,0,0, 0.1));
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-bottom: @JMbaseSpace;
+  .transition(padding 0.3s ease);
+}
+
+#jm-bar-left {
+  padding: 5px 0 0;
+  .transition(padding 0.3s ease);
+}
+
+.topbar.djmenu #jm-bar-left {
+  padding: 34px 0 0;
+}
+
+#jm-bar-right {
+  max-width: 75%;
+}
+
+.djmenu #jm-topbar {
+  padding-bottom: 15px;
+}
+
+#jm-topbar {
+  line-height: 34px;
+  width: 100%;
+}
+
+/* fixed bar */
+
+.stickybar.scrolled #jm-bar {
+  top: 0;
+  left: 0;
+  position: fixed;   
+  width: 100%;
+  z-index: 9999;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.stickybar.scrolled #jm-bar #jm-topbar {
+  display: none;
+}
+
+.stickybar.scrolled #jm-bar #jm-bar-left {
+  padding: 5px 0 0;
+}
+
+// Header
+// --------------------------
+
+#jm-header-mod {
+  float: left;
+  width: 100%;
+}    
+
+#jm-header + #jm-header-mod {
+  margin-left: -100%;
+}
+
+#jm-header {
+  float: left;
+  width: 100%;    
+}
+
+#jm-header-in {
+  padding: 0 0 0 @JMbaseSpace;
+}
+
+.noheadermod #jm-header-in {
+  margin: 0;
+  padding: 0;
+}
+
+// breadcrumbs
+// --------------------------
+  
+#jm-breadcrumbs {
+  padding: 12px 0;
+  border-top: 1px solid @JMborder;
+  border-bottom: 1px solid @JMborder;
+  margin-bottom: @JMbaseSpace;
+}  
+
+#jm-font-switcher {
+  text-align: right;
+  margin: 0 0 15px;
+}
+
+// main
+// --------------------------
+
+#jm-maincontent {
+  margin-bottom: @JMbaseSpace;
+}
+
+// grid
+// --------------------------
+
+//if no content
+#jm-content-wrapper,
+#jm-content {
+  min-height: 1px;
+}
+
+//row fluid span height fix
+.row-fluid [class*="span"] {
+  min-height: 1px;
+}
+
+#jm-left,
+#jm-right {
+  margin-left: 0;
+  margin-right: 0;
+  .row,
+  .row-fluid {
+    margin: 0!important;
+    .left-column-in,
+    .right-column-in {
+      margin: 0;
+    }
+  }
+}
+
+.jm-grid {
+  [class*="span"] {
+    margin: 0;
+    float: left;
+  }
+  .row > [class*="-in"] > [class*="-bg"],
+  .row-fluid > [class*="-in"] > [class*="-bg"] {
+    margin-left: @JMbaseSpace;
+  }
+  .row,
+  .row-fluid {
+    margin-left: -@JMbaseSpace;
+    width: auto;
+  }
+  .span1 {
+    width: 8.33%;
+  }
+  .span2 {
+    width: 16.66%;
+  }    
+  .span3 {
+    width: 25%;
+  }    
+  .span4 {
+    width: 33.33%;
+  }    
+  .span5 {
+    width: 41.66%;
+  }    
+  .span6 {
+    width: 50%;
+  }    
+  .span7 {
+    width: 58.33%;
+  }    
+  .span8 {
+    width: 66.66%;
+  }    
+  .span9 {
+    width: 75%;
+  }   
+  .span10 {
+    width: 83.32%;
+  }   
+  .span11 {
+    width: 91.66%;
+  }    
+  .span0,
+  .span12 {
+    width: 100%;
+  }
+}
+
+//padding left [-] content
+.lcr #jm-content-wrapper-in {
+  padding: 0 0 0 @JMbaseSpace;
+}
+
+.lrc #jm-content-wrapper-in {
+  padding: 0 0 0 @JMbaseSpace;
+}
+
+.clr #jm-content-wrapper-in {
+  padding: 0 @JMbaseSpace 0 0;
+}
+
+.noleft #jm-content-wrapper-in,
+.nocolumn #jm-content-wrapper-in {
+  padding: 0;
+}
+
+//padding content [-] right
+.lcr #jm-right {
+  padding-left: @JMbaseSpace;
+}
+
+.lrc #jm-right {
+  padding-right: @JMbaseSpace;
+}
+
+.clr #jm-right {
+  padding-left: @JMbaseSpace;
+}
+
+/* lcr */
+
+.lcr #jm-content-wrapper,
+.lcr #jm-middle-page {
+  float: left;
+  width: 100%;
+}
+
+.lcr #jm-left {
+  float: left;
+  margin-left: -100%;
+}
+
+.lcr #jm-right {
+  float: left;
+}
+
+.lcr.nocolumn #jm-content-wrapper-in {
+  margin: 0!important;
+}
+
+.lcr.noleft #jm-content-wrapper-in {
+  margin-left: 0!important; 
+}
+
+.lcr.noright #jm-content,
+.lcr.nocolumn #jm-content {
+  margin-right: 0!important;
+}
+
+/* lrc */
+
+.lrc #jm-content-wrapper,
+.lrc #jm-middle-page {
+  float: right;
+  width: 100%;
+}
+
+.lrc #jm-left {
+  float: left;
+}
+
+.lrc #jm-right {
+  float: left;
+}
+
+.lrc.nocolumn #jm-content-wrapper-in {
+  margin: 0!important;
+}
+
+.lrc.noleft #jm-content-wrapper-in {
+  margin-left: 0!important; 
+}
+
+.lrc.noright #jm-content,
+.lrc.nocolumn #jm-content {
+  margin-left: 0!important;
+}
+
+/* clr */
+/* content right left */
+
+.clr #jm-content-wrapper,
+.clr #jm-middle-page {
+  float: left;
+  width: 100%;
+}
+
+.clr #jm-left {
+  float: left;
+}
+
+.clr #jm-right {
+  float: left;
+}
+
+.clr.nocolumn #jm-content-wrapper-in,
+.clr.noleft #jm-content-wrapper-in {
+  margin: 0!important; 
+}
+
+.clr.noright #jm-content,
+.clr.nocolumn #jm-content {
+  margin: 0!important;
+}
+
+// footer
+// --------------------------
+
+#jm-footer {
+  margin-top: 7px;
+  border-top: 1px solid @JMfooterTopBorder;
+  background: @JMfooterBackground;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    width: 100%;
+    height: 7px;
+    background: url('../images/footer-bg.png');
+  }
+}
+
+#jm-footer-mod {
+  padding-top: 45px;
+  border-bottom: 1px solid @JMfootermodBottomBorder;
+}
+
+#jm-footer-wrapper {
+  padding: 25px 0;
+  color: @JMfooterFontColor;
+  font-size: 13px;
+}
+
+#jm-footer-left {
+  width: 40%;
+}
+
+#jm-footer-center {
+  width: 60%;
+  text-align: left;
+}
+
+#jm-footer-left + #jm-footer-center {
+  width: 20%;
+  text-align: center;
+}
+
+#jm-footer-right {
+  text-align: right;
+  width: 40%;
+}
+
+#jm-footer-left,
+#jm-footer-right {
+  line-height: 1.2em;
+}
+
+#jm-back-top {
+  bottom: 20px;
+  margin-right: 20px;
+  position: fixed;
+  right: 0;
+}
+ 
+// DETAILS OF LAYOUT
+// --------------------------
+
+#jm-topbar p {
+  margin: 0;
+}
+
+#jm-logo-sitedesc {
+  #jm-logo {
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin: 0;
+    a {
+      color: @JMlogoFontColor;
+      display: block;
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+  #jm-sitedesc {
+    vertical-align: middle;
+    color: @JMsiteDescriptionFontColor;
+  }
+}
+
+#jm-styleswitcher {
+  line-height: 10px; 
+  a {
+    display: inline-block;
+    outline: none;
+    line-height: 2px;
+    text-decoration: none;
+    span {
+      height: 8px;
+      width: 8px;
+      display: block;
+      cursor: pointer;
+      margin-left: 2px;
+      .transition(all 0.2s ease-in);
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a#style_icon-1 span {
+    background: @JMstyle1;
+  }
+  a#style_icon-1:hover span {
+    background: lighten(@JMstyle1, 20%);
+  }
+  a#style_icon-2 span {
+    background: @JMstyle2;
+  }
+  a#style_icon-2:hover span {
+    background: lighten(@JMstyle2, 20%);
+  }
+  a#style_icon-3 span {
+    background: @JMstyle3;
+  }
+  a#style_icon-3:hover span {
+    background: lighten(@JMstyle3, 20%);
+  }
+  a#style_icon-4 span {
+    background: @JMstyle4;
+  }
+  a#style_icon-4:hover span {
+    background: lighten(@JMstyle4, 20%);
+  }
+}
+
+#jm-back-top {
+  z-index: 9999;
+  a {
+    text-decoration: none;
+    display: block;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  span {
+    display: block;
+    height: 50px;
+    .transition(all 1s ease 0s);
+    width: 50px;
+    background: url("../images/backtotop.png") no-repeat center center rgb(200, 204, 206);
+    background: url("../images/backtotop.png") no-repeat center center rgba(0, 0, 0, 0.2);
+    &:hover {
+      background: url("../images/backtotop.png") no-repeat center center rgb(185, 185, 185);
+      background: url("../images/backtotop.png") no-repeat center center rgba(0, 0, 0, 0.3);            
+    }
+  }
+}
+
+// font-switcher
+// --------------------------
+
+.texttoggler {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 1px;
+  display: inline-block;
+}
+
+.texttoggler.small {
+  font-size: 0.8em;
+}
+
+.texttoggler.normal {
+  font-size: 1.1em;
+}
+
+.texttoggler.large {
+  font-size: 1.3em;
+}
+
+.smallview #jm-maincontent {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.largeview #jm-maincontent {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}

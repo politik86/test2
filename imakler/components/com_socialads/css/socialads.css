@@ -1,0 +1,644 @@
+/* tabs */
+
+dl.tabs { float: left; margin: 10px 0 -1px 0; z-index: 50;
+}
+
+dl.tabs dt { float: left; padding: 4px 10px; border: 1px solid #ccc; border-bottom:none; margin-left: 3px; background-color: #EFF2F7; color: #666; }
+
+dl.tabs dt.open { background: #F9F9F9; border-bottom: 1px solid #F9F9F9; z-index: 100; color: #000; }
+
+div.current { clear: both; border: 1px solid #ccc; padding: 20px 10px 5px; margin-bottom:40px; margin-left:3px; width:100%;height:550px;overflow:auto}
+
+div.current dd { padding: 0; margin: 0; }
+
+
+#ad-form-td{padding-bottom:0px; }
+
+/* ad-info style start here */
+
+
+
+/*for textbox size*/
+#addataad_url1, #url2, #eBann, #eBann1{ border:1px solid #BDC7D8;}
+
+#addataad_url1{
+width:20%;
+margin: 0px;
+float: left !important;
+}
+/*
+#url2{width:250px;}
+
+#eBann, #eBann1{width:312px;}
+*/
+#eBann1{height:65px;}
+/*textbox size ends here*/
+
+/*   characteres left*/
+.minitext { font: normal 0.7em Arial, sans-serif; color: Black; padding-left:3px; }
+
+.disable { color: #CF110C;}
+/* char left ends here*/
+
+/*for text above textbox*/
+#ad-form-span{font-weight:normal;}
+#ad-form-spantxt, #sBann, #sBann1{ color:#777777;}
+/*for text above textbox ends here*/
+
+.ad-dtl-space{padding:5px;}
+
+/*preview of an ad*/
+
+
+.ad-form-rightside { float:right; width:50%; }
+.ad-form-rightside-inner { margin:10px; height:200px; width:150px; background-color:#FFF; }
+.ad-details{/*float:left;*/ }
+
+#preview-span { font-weight:bold;  text-align:center; padding:5px 0px 0px 49px; }
+
+#preview-title{  font-weight: bold; }
+
+.preview-title-lnk{ text-decoration:none; }
+
+#layout_div{padding:5px 0px 0px 0px;}
+#layout1{height:110px; width:265px; overflow:auto;}
+.layout_span{float:left; position: relative;margin-left:0px !important;}
+input.layout_radio{margin: 0; position: absolute; }
+img.layout_radio{padding: 1px 6px 6px 15px; width:60px;}
+#upload_area{ /*padding:7px 3px 1px 1px; text-align:center;*/ display:block;}
+
+.previewtitle {  font-weight: bold; }
+
+
+/* lower div*/
+#lowerdiv { height:100%; width:100%; margin-bottom: 20px; display:none; }
+
+#bottomdiv { height:100%; width:100%; margin-bottom: 20px; display:block; }
+
+#bottom1{ display:none; }
+
+.checkad-outer { height:150px; width : 100px; border:solid 1px; }
+
+#checkad-img-tr { text-align:center; }
+
+#checkad-img { height:80px; width:80px; }
+
+.ad-fields-lable{ width:95px; text-align:left; padding-right:5px;  }
+
+.ad-fields-inputbox{ /*width:217px;*/ border:1px solid #BDC7D8; /*margin:5px;*/ }
+
+/*manage-ads start here*/
+.managead-td{ width:15%; text-align:left; }
+/*manage-ad ends here*/
+
+/*adsummary*/
+.summary{ width:100%; }
+
+.stats{ width:100%;height:200px;/*overflow:auto; font-weight:bold;*/  /*float:left;*/ }
+
+.tabs{  width:97%;height:60%; font-weight:bold;   margin-top:6px; }
+
+.summery-tr{background: none repeat scroll 0 0 #F6F6F6; color: #404040;border: 1px solid;border-collapse: collapse;border-spacing: 0px;  }
+
+.summery-td{ font-weight:bold;  padding:5px; }
+/*ad-summery ends here*/
+
+a.selected { background-color:#1F75CC; color:white; z-index:100; }
+/*Popup*/
+.messagepop { background-color:#FFFFFF; border:1px solid #999999; cursor:default; display:none; margin-top: 15px; position:absolute; text-align:left; width:394px; z-index:50; padding: 25px 25px 20px; }
+
+/*
+removed by Dipti
+label { display: block; margin-bottom: 3px; padding-left: 15px; text-indent: -15px; } */
+
+.messagepop p, .messagepop.div { border-bottom: 1px solid #EFEFEF; margin: 8px 0; padding-bottom: 8px; }
+/*Popup Ends*/
+
+/*admin-settings*/
+.setting-td{ width:50px; }
+
+.ad_view{float:left;}
+.preview-buttons{ margin:25px 0px 0px 5px; float:left;}
+.preview-buttons a:link, .preview-buttons a:visited{ text-decoration:none; background-color:#EFF2F7; color:#000;}
+
+.preview-buttons a:hover, .preview-buttons a:focus, .preview-buttons a:active{text-decoration:none; background-color:#fff; color:#000;}
+
+/*input.button{padding:1px 2px 2px; background-color:#EFF2F7; border:1px solid #ccc; color:#000;cursor:pointer;}*/
+
+.preview-buttons a.editbutton:hover, .preview-buttons a.editbutton  {border:1px solid #ccc;  padding:1px 8px 2px;}
+/*admin-settings end*/
+
+/*ad-overview page in popup*/
+div.adsummary_main{padding:20px;}
+/* ad-overview page ends here*/
+
+/* content tables from template.css */
+td.sectiontableheader {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td {
+padding: 4px;
+  background-color:#F9F9F9;
+}
+
+tr.sectiontableentry2 td{
+  padding: 4px;
+  background-color:#FFFFFF;
+}
+
+td.sectiontableentry0,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+  padding: 3px;
+  background-color:#EFF2F7;
+}
+/*ignore table*/
+.ignoretable{width:90%}
+
+#line_chart_div{
+/* float: left; overflow: auto; /*margin-right: 5px;VK*/
+}
+.techjoomla-bootstrap .chart_div{
+width: 100%;height: 250px;
+}
+/*ManageAds Table*/
+.manageadtable
+{
+padding-top:20px;
+}
+.managead-toolbar ,.sa-campaign-toolbar{
+font-weight: bold;
+padding: 4px 10px;
+position: relative;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#ededed));
+border-bottom: 1px solid #D3D3D3;
+color: #0C192E;
+text-shadow: 0 1px 0 #FFF;
+margin-bottom: 10px;
+}
+div.managead-toolbar div.managead-toolbar_maindiv .span3 , div.managead-toolbar div.managead-toolbar_maindiv .span9
+{
+background: transparent  !important;
+}
+.managead-toolbar select, .sa-campaign-toolbar select{
+margin:0px !important;
+}
+table.managead tfoot .info td{
+background-color: #d9edf7;;
+}
+
+table.managead td {
+border-top: 1px solid #dddddd;
+}
+table.managead .ad-preview-img img, table.managead .ad-type-img img{
+max-width:16px !important;
+}
+table.managead .row-fluid div.span6{
+background: transparent  !important;
+text-align: right !important;
+}
+table.managead .managead-center
+{
+text-align:center !important;
+}
+table.managead .managead-right
+{
+text-align:right !important;
+}
+.manageadtableheader
+{
+background: none repeat scroll 0 0 #F6F6F6;
+float: left;
+padding: 5px;
+font-size: 120%;
+margin-bottom: 5px;
+}
+.manageadtableheader p.muted{
+margin:0px !important;
+text-align: center !important;
+}
+
+#manageadspan
+{
+ background: none;
+color: #404040;
+
+}
+
+#fixedElement{
+padding: 5px;
+border: 1px solid #CCC;
+position: absolute;
+right: 5px;
+top: 5px;
+}
+
+#social_target_space{position: relative;}
+.targetting .input-append input[type="text"]{
+display:inline-block !important;
+}
+.sa_toolbar_img{cursor:pointer;}
+
+/*start for geo*/
+.target_space{
+margin:5px 2px 5px 10px;
+}
+
+/*end for geo*/
+.techjoomla-bootstrap table,th,tr,td{/*border: 0px  !important;VK*/}
+.sa_fieldset{border: 1px solid #CCCCCC; !important; padding:5px;}
+.sa_border_right{border-right: 1px dashed  #CCCCCC !important;}
+.sa_labels{ font-weight:normal; width:145px; font-style:normal;}
+.sa_labels1{ font-style:italic; }
+.altbutton .sa_labels{font-weight:bold;}
+
+/*Styling for tooltips*/
+.tip-wrap{
+	background: white;
+	line-height: 14px;
+	border: 1px solid;
+}
+.tip-wrap .tip-title{
+	color: #000000 !important;
+}
+
+/*Promoplugin elements styling*/
+.promotplugin {
+	padding:0px;
+}
+
+#defaulturl{
+	padding-top:5px;
+}
+
+/*Pricing*/
+#priceperclick{
+	padding-left:0px;
+}
+
+div.redlabel{
+	font-style:italic;
+}
+
+#selectlink a, #webpagelink a {
+ text-decoration: underline !important;
+ font-style: italic;
+}
+
+/* Design tab */
+#default_zone{
+	margin-left:2px;
+}
+
+#default_zone td{
+	padding:5px 3px;
+}
+
+input#altadbutton, input#social_target, input#geo_target, input#context_target{
+	margin:3px;
+}
+
+input#unlimited_ad{
+	margin:2px;
+	float:left;
+}
+
+
+
+#payment_tab_spacer{margin-left: 34%;margin-top: 20px;z-index: 50;}
+#cop_tr{display:none}
+#payment_tab_spacer_lower_bottom{display: block;
+}
+
+input#review, input#back2{
+
+	width:100px;
+}
+
+.sa_h3_chkbox{
+float:left;
+}
+
+
+.show-grid {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ad_reviewAdmainContainer .show-grid {
+
+  margin-bottom: 0px ;
+}
+.show-grid [class*="span"] {
+  background-color: #eee;
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 40px;
+  line-height: 69x;
+}
+
+
+
+/*start hack in bootstrap*/
+.techjoomla-bootstrap .modal {
+    background-clip: padding-box;
+    background-color: transparent;
+    border: 1px none transparent;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none !important;
+    left: 50%;
+    margin-left: auto !important;
+    outline: 0 none;
+    position: inherit !important;
+    top: 10% ;
+    width: auto !important;
+    z-index: 1050;
+
+}
+.techjoomla-bootstrap .form-horizontal .control-label {
+margin-top: 0 !important;
+}
+.techjoomla-bootstrap .table-bordered th,.techjoomla-bootstrap .table-bordered td {
+   /* border-left: medium none !important; VK*/
+}
+
+.techjoomla-bootstrap .nav-tabs{
+list-style-type: none !important;
+}
+.techjoomla-bootstrap .nav-tabs > li {
+    margin-bottom: -1px !important;
+}
+
+.techjoomla-bootstrap h1,.techjoomla-bootstrap  h2,.techjoomla-bootstrap  h3,.techjoomla-bootstrap  h4,.techjoomla-bootstrap  h5,.techjoomla-bootstrap  h6 {
+   color: inherit !important;
+    font-family: inherit;
+    font-weight: bold !important;
+    margin: 0 !important;
+    text-rendering: optimizelegibility;
+}
+
+.techjoomla-bootstrap .btn-primary,.techjoomla-bootstrap  .btn-primary:hover,.techjoomla-bootstrap  .btn-warning,.techjoomla-bootstrap  .btn-warning:hover,.techjoomla-bootstrap  .btn-danger,.techjoomla-bootstrap  .btn-danger:hover,.techjoomla-bootstrap  .btn-success,.techjoomla-bootstrap  .btn-success:hover,.techjoomla-bootstrap  .btn-info,.techjoomla-bootstrap  .btn-info:hover,.techjoomla-bootstrap  .btn-inverse,.techjoomla-bootstrap  .btn-inverse:hover {
+    color: #FFFFFF !important;
+}
+
+/*
+.techjoomla-bootstrap .form-horizontal #qtc_mainwrapper .controls {
+    margin-left: 120px;
+}
+*/
+/*
+.techjoomla-bootstrap #qtc_mainwrapper .qtc_select {
+    width: 161px !important;
+}
+*/
+
+
+/* added by kk for registration view */
+/*
+.q2c-registration .form-horizontal .control-label{ text-align:left!important; width:140px!important;}
+.q2c-registration .form-horizontal .controls{  margin-left: 151px!important;}
+.q2c-registration-btn{ text-align:right;}
+*/
+
+/* filter search css added by kk */
+.filter-search #search_list{ margin-bottom:0px!important;}
+
+.techjoomla-bootstrap .qtc_currencey_textbox input[type="text"]{padding: 4px 6px!important; height:20px!important}
+
+.techjoomla-bootstrap .form-horizontal .qtc_controls_text {padding-top:5px;}
+
+.techjoomla-bootstrap  .qtc_modal .icon-edit:before { content: none !important; }
+
+/*
+.techjoomla-bootstrap .form-horizontal .controls {
+    clear: both !important;
+}
+
+.techjoomla-bootstrap .controls {
+    clear: both !important;
+}
+*/
+
+.techjoomla-bootstrap .msg_support_type{
+	margin-top:10px !important;
+}
+
+.techjoomla-bootstrap .cal_text{
+		margin-top:5px !important;
+}
+.techjoomla-bootstrap .ads_ckout_select{
+		width: 161px !important;
+}
+/*end hack in bootstrap*/
+
+#mapping-field-table ul, ol {
+padding: 0;
+margin: 0px;
+}
+
+/*
+.adpreview{float:left; margin-bottom: 10px; margin-left: 10px; width:37%;}
+div.ad-info{float:left; width:59%;}
+
+span.unlimited_adtext{
+	float:left;
+	width:90%;
+}
+*/
+.techjoomla-bootstrap #sa_reomveMargin .alert{ margin-bottom: 0px !important;
+margin-top: 5px !important;}
+
+/*VAISHALI*/
+
+.techjoomla-bootstrap .ad-form .step-content
+{
+	margin-top: 5px !important;
+}
+span.hasTooltip:hover
+{
+	display: block !important;
+}
+span.hasTooltip:focus
+{
+	display: block !important;
+}
+#ad_title_name div.sa_charlimit , #ad_body_name div.sa_charlimit{
+text-align: right !important;
+}
+
+.techjoomla-bootstrap .ad-details .controls , .techjoomla-bootstrap .targetting .controls{
+    margin-left: 0px !important;
+}
+.techjoomla-bootstrap .target_space .targetting_yes_no, .techjoomla-bootstrap .unlimited_yes_no{
+	margin-left: 18px !important;
+}
+.techjoomla-bootstrap .targetting{
+background-color: #fff;
+padding: 10px;
+}
+
+.targetting .ui-helper-hidden-accessible{
+display: none !important;
+}
+.targetting_yes_no label.first, .unlimited_yes_no label.first{
+-webkit-border-radius:  3px 0 0 3px !important;
+-moz-border-radius: 3px 0 0 3px !important;
+border-radius:3px 0 0 3px !important;
+}
+.targetting_yes_no label.last, .unlimited_yes_no label.last{
+-webkit-border-radius:  0 3px 3px 0 !important;
+-moz-border-radius: 0 3px 3px 0 !important;
+border-radius:0 3px 3px 0 !important;
+}
+.targetting_yes_no input, .unlimited_yes_no input{
+display:none !important;
+}
+.targetting_yes_no label,  .unlimited_yes_no label{
+display:inline-block !important;
+}
+/*vm*/
+#ads_mainwrapper  .sa_Mediumselect {
+    width: 161px !important;
+}
+
+
+
+.ad-form label {
+display: block;
+min-height: 20px;
+font-weight: bold;
+font-size: 12px;
+}
+.ad-form .help-inline {
+font-weight: normal;
+font-size: 12px;
+color: #75788b;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+padding-left: 0px !important;
+}
+
+.ad-form .alert-help-inline {
+font-weight: normal;
+font-size: 12px;
+color: #75788b;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+margin-left: 0px !important;
+}
+
+.ad-details .control-group{
+margin-bottom: 9px !important;
+}
+.ad-details .alert{
+margin-bottom: 0px !important;
+}
+
+.fileinput-button {
+position: relative;
+overflow: hidden;
+vertical-align: middle;
+}
+.fileinput-button input {
+position: absolute !important;
+top: 0;
+right: 0;
+margin: 0;
+opacity: 0;
+font-size: 23px;
+direction: ltr;
+cursor: pointer;
+}
+
+.ad-form .prev_next_wizard_actions .form-actions , #ad_payHtmlDiv .form-actions{
+padding-left:15px !important
+}
+
+/*vm*/
+.com_socialad_ajax_loading{
+text-align:center;
+}
+.com_socialad_ajax_loading_img{
+height:72px !important;width:72px !important;
+}
+.com_socialad_ajax_loading_text{
+font-weight:bold;
+}
+.techjoomla-bootstrap .sa_terms_checkbox_style
+{
+	margin-top:-1px;
+}
+
+
+.btn-next, .btn-prev{
+	color: #ffffff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35) !important;
+	background-color: #2b96e2 !important;
+	background-image: linear-gradient(to bottom, #32aaff, #006bb7) !important;
+	background-repeat: repeat-x !important;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.btn-next:focus , .btn-next:hover ,.btn-prev:focus , .btn-prev:hover{
+	background-color: #2b96e2 !important;
+	background-image: none !important;
+	background-position: 0px 0px  !important;
+}
+
+
+.techjoomla-bootstrap .ad-info  .uneditable-input{
+width: 125px;
+}
+.techjoomla-bootstrap .ad-info  .fileinput-button{
+border-radius: 0 4px 4px 0 ;
+}
+.techjoomla-bootstrap .managead .icon-clock {
+background-position: -48px -24px;
+}
+.techjoomla-bootstrap .ad_summary_div .chart_div{
+overflow:auto;
+}
+
+.table-responsive {
+width: 100%;
+margin-bottom: 15px;
+overflow-y: hidden;
+overflow-x: auto;
+}
+@media (max-width: 767px){
+.table-responsive {
+width: 100%;
+margin-bottom: 15px;
+overflow-y: hidden;
+overflow-x: auto;
+}
+}
+
+@media (max-width: 480px){
+.techjoomla-bootstrap .ad-details .span7, .techjoomla-bootstrap .target_space .span6{
+width: 100%;
+}
+.techjoomla-bootstrap .sa_fieldset .targetting .input-append .ad-fields-inputbox{
+width: 75%;
+}
+.techjoomla-bootstrap .sa_fieldset .targetting .ad-fields-inputbox{
+width: 180px;
+}
+.techjoomla-bootstrap .sa_fieldset .targetting select {
+width: auto;
+}
+}
+
+@media (max-width: 979px) and (min-width: 768px){
+.techjoomla-bootstrap .sa_reg .span8{
+width: 100%;
+}
+}
+
+

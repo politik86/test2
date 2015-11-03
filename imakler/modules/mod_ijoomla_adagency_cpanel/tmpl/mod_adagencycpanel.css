@@ -1,0 +1,101 @@
+#cpanel_module a.items_adg {
+    background: none repeat scroll 0 0 #E1EDF2;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #C2E4EF;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.25s ease 0s;
+}
+#cpanel_module a.items_adg:hover{
+    text-decoration: none;
+    font-weight: bold;
+    /*box-shadow: 0 0 0 1px #DDDDDD;*/
+    background: #C2E4EF;
+}
+#cpanel_module a.items_adg:hover span, 
+#cpanel_module a.items_adg:hover i{
+    color: #0088CC;
+}
+#cpanel_module .items_adg i{
+    display: block !important;
+    font-size: 20px;
+    min-height: 20px;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    color: #AAAAAA;
+}
+/*====================================
+    section, row and column
+=====================================*/
+#cpanel_module [class*="_row"]:after,
+#cpanel_module [class*="_row"]:before{
+	content: " ";
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 0;
+}
+/* row */
+#cpanel_module .adg_row{
+	margin-left: -20px !important;
+	/*margin-right: -20px !important;*/
+}
+/* cell */
+#cpanel_module .adg_row > .adg_cell{
+	padding: 5px 0 0 20px !important;
+}
+#cpanel_module .adg_row.adg_table_row > .adg_table_cell{
+	padding: 5px 5px !important;
+}
+
+/*internal greeding
+-------------------------------------*/
+#cpanel_module [class*="span"]{
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+	margin-left: 0 !important;
+}
+#cpanel_module .span1{
+	width: 8.33333% !important;
+}
+#cpanel_module .span1{
+	width: 8.33333% !important;
+}
+.#cpanel_module .span2{
+	width: 16.6667% !important;
+}
+#cpanel_module .span3{
+	width: 25% !important;
+}
+#cpanel_module .span4{
+	width: 33.3333% !important;
+}
+#cpanel_module .span5{
+	width: 41.6667% !important;
+}
+#cpanel_module .span6{
+	width: 50% !important;
+}
+#cpanel_module .span7{
+	width: 58.3333% !important;
+}
+#cpanel_module .span8{
+	width: 66.6667% !important;
+}
+#cpanel_module .span9{
+	width: 75% !important;
+}
+#cpanel_module .span10{
+	width: 83.3333% !important;
+}
+#cpanel_module .span11{
+	width: 91.6667% !important;
+}
+#cpanel_module .span12{
+	width: 100% !important;
+}
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/

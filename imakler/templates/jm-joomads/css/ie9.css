@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   IE8 styles
+   ========================================================================== */
+
+.ch-item.ch-second:hover .ch-info {
+    -ms-transform: none;
+    transform: none;
+}
+.ch-item.ch-second .ch-info .ch-info-back {
+    display: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    filter: alpha(opacity="0");
+}
+.ch-item.ch-second:hover .ch-info .ch-info-back {
+    display: block;
+    opacity: 100;
+    filter: alpha(opacity="100");
+}

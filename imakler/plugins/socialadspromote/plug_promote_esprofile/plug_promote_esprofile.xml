@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="socialadspromote" method="upgrade">
+	<name>Social Ads - Promote List EasySocial Profile</name>
+	<creationDate>12th May 2014</creationDate>
+	<version>3.0.1</version>
+	<author>Techjoomla</author>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<copyright>(c) Techjoomla</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Plugin for Promoting ES Profile</description>
+	<files>
+		<filename plugin="plug_promote_esprofile">plug_promote_esprofile.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB/en-GB.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="es-ES">es-ES/es-ES.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="sv-SE">sv-SE/sv-SE.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="da-DK">da-DK/da-DK.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="th-TH">th-TH/th-TH.plg_socialadspromote_plug_promote_esprofile.ini</language>
+		<language tag="pt-PT">pt-PT/pt-PT.plg_socialadspromote_plug_promote_esprofile.ini</language>
+  </languages>
+	<!-- parameters for Joomla 3.0.x -->
+	<params>
+		<param name="plugin_name" type="text" default="Easy Social Profile" label="PLG_NAME" description="PLG_NAM_DESC" />
+	</params>
+	<!-- Fields for Joomla 1.6.x and onwards -->
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="plugin_name" type="text" default="Easy Social Profile" label="PLG_NAME" description="PLG_NAM_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

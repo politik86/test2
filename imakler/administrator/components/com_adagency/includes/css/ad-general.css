@@ -1,0 +1,57 @@
+/* presets
+==============================*/
+#adagency_container .agency_subtitle {
+    border-bottom: 1px solid #999999;
+    color: #666666;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+/* padding */
+div.ij_adagency_container .adg_padding_top{
+	padding-top: 10px !important;
+}
+div.ij_adagency_container .adg_padding_right{
+	padding-right: 10px !important;
+}
+div.ij_adagency_container .adg_padding_bottom{
+	padding-bottom: 10px !important;
+}
+div.ij_adagency_container .adg_padding_left{
+	padding-left: 10px !important;
+}
+
+/* margin */
+div.ij_adagency_container .adg_margin_top{
+	margin-top: 10px !important;
+}
+div.ij_adagency_container .adg_margin_right{
+	margin-right: 10px !important;
+}
+div.ij_adagency_container .adg_margin_bottom{
+	margin-bottom: 10px !important;
+}
+div.ij_adagency_container .adg_margin_left{
+	margin-left: 10px !important;
+}
+/* icons */
+.adg_ico_img{
+	background: #CDECF7;
+	border-radius: 4px;
+    font-size: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 40px;
+    display: block;
+}
+/* general template fixing
+====================================*/
+#adagency_container .form-horizontal .control-label{
+    padding-top: 0;
+}
+div.ij_adagency_container input[type="radio"], 
+div.ij_adagency_container input[type="checkbox"]{
+    margin-top: 0 !important;
+    margin-right: 10px !important;
+}

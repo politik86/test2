@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system">
+	<name>iJoomlaUpgradeAlert</name>
+	<author>iJoomla</author>
+	<creationDate>16 March 2011</creationDate>
+    <copyright>(C) 2010 iJoomla.com</copyright>
+	<license>GNU General Public License, version 2 http://www.ijoomla.com/licensing/</license>
+	<authorEmail>webmaster2@ijoomla.com</authorEmail>
+	<authorUrl>www.iJoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>This plugin alerts you when an iJoomla extension is out of date. You can see which is the current version for each of your iJoomla Extensions and easily click to upgrade it. Please publish this plugin. Go to extensions->plugins, filter by "ijoomla" and press the publish icon.</description>
+	<files>
+		<filename plugin="ijoomlaupdate">ijoomlaupdate.php</filename>
+		<folder>ijoomlaupdate</folder>
+	</files>	
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Basic Options">		
+				<field name="lastcheck" type="text" label="Last check date:" description="iJoomla update last check" default="0" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

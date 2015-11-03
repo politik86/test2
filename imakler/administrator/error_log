@@ -1,0 +1,74 @@
+
+[02-Oct-2015 11:36:17 Europe/Helsinki] PHP Notice:  Undefined offset: -1 in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/item.php on line 309
+[02-Oct-2015 11:36:17 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[07-Oct-2015 18:21:21 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 89
+[07-Oct-2015 18:21:21 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 91
+[07-Oct-2015 18:21:21 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[07-Oct-2015 18:21:31 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 89
+[07-Oct-2015 18:21:31 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 91
+[07-Oct-2015 18:21:31 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[07-Oct-2015 18:21:40 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 89
+[07-Oct-2015 18:21:40 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/administrator/components/com_djclassifieds/controllers/promotion.php on line 91
+[07-Oct-2015 18:21:40 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[11-Oct-2015 15:18:53 Europe/Helsinki] PHP Warning:  file_put_contents(/home/imakler/public_html/tmp/): failed to open stream: Is a directory in /home/imakler/public_html/libraries/joomla/filesystem/file.php on line 431
+[11-Oct-2015 17:15:04 Europe/Helsinki] PHP Warning:  file_put_contents(/home/imakler/public_html/tmp/): failed to open stream: Is a directory in /home/imakler/public_html/libraries/joomla/filesystem/file.php on line 431
+[11-Oct-2015 17:15:16 Europe/Helsinki] PHP Warning:  file_put_contents(/home/imakler/public_html/tmp/): failed to open stream: Is a directory in /home/imakler/public_html/libraries/joomla/filesystem/file.php on line 431
+[11-Oct-2015 17:15:26 Europe/Helsinki] PHP Warning:  file_put_contents(/home/imakler/public_html/tmp/): failed to open stream: Is a directory in /home/imakler/public_html/libraries/joomla/filesystem/file.php on line 431
+[11-Oct-2015 17:25:34 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 1371
+[11-Oct-2015 17:25:34 Europe/Helsinki] PHP Notice:  Undefined offset: 0 in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 854
+[11-Oct-2015 17:25:34 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 858
+[11-Oct-2015 17:25:34 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 860
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Notice:  Undefined offset: 0 in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 907
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 912
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 914
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Notice:  Undefined offset: 0 in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 1173
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 1493
+[11-Oct-2015 17:25:35 Europe/Helsinki] PHP Strict Standards:  Only variables should be assigned by reference in /home/imakler/public_html/tmp/install_561a714951282/install_uninstall.php on line 1514
+[11-Oct-2015 17:25:47 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[11-Oct-2015 17:25:52 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[11-Oct-2015 17:27:00 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[11-Oct-2015 17:30:05 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[11-Oct-2015 17:36:40 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[11-Oct-2015 17:52:45 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[18-Oct-2015 10:18:09 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[18-Oct-2015 10:19:01 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[18-Oct-2015 14:44:40 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[18-Oct-2015 19:01:43 Europe/Helsinki] PHP Warning: A feed could not be found at http://adagency.ijoomla.com/ijoomla_rss/rss/xml/ijoomla-ad-agency/videos/RSS2.0/ in /home/imakler/public_html/plugins/system/ijoomlanews/ijoomlanews/feed.php on line 453
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Notice:  Undefined index: usergroupsread in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 77
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 77
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Notice:  Undefined index: usergroupswrite in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 78
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 78
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Notice:  Undefined index: usergroupsread in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 93
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 93
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Notice:  Undefined index: usergroupswrite in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 94
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 94
+[19-Oct-2015 09:35:22 Europe/Helsinki] PHP Notice:  Undefined index: cb_image in /home/imakler/public_html/administrator/components/com_adsmanager/tables/category.php on line 36
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Notice:  Undefined index: usergroupsread in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 77
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 77
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Notice:  Undefined index: usergroupswrite in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 78
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 78
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Notice:  Undefined index: usergroupsread in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 93
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 93
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Notice:  Undefined index: usergroupswrite in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 94
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Warning:  implode(): Invalid arguments passed in /home/imakler/public_html/administrator/components/com_adsmanager/controllers/categories.php on line 94
+[19-Oct-2015 09:35:43 Europe/Helsinki] PHP Notice:  Undefined index: cb_image in /home/imakler/public_html/administrator/components/com_adsmanager/tables/category.php on line 36
+[23-Oct-2015 16:32:34 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[23-Oct-2015 16:32:39 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[23-Oct-2015 16:32:43 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:32:42 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:32:52 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:33:12 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:33:22 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:33:35 Europe/Helsinki] PHP Notice:  Undefined index:  in /home/imakler/public_html/administrator/templates/isis/html/message.php on line 24
+[27-Oct-2015 09:36:17 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/imakler/public_html/administrator/components/com_socialads/views/managezone/tmpl/form.php on line 770
+[27-Oct-2015 09:37:48 Europe/Helsinki] PHP Notice:  Undefined index: num_ads in /home/imakler/public_html/administrator/components/com_socialads/models/managezone.php on line 255
+[27-Oct-2015 09:46:56 Europe/Helsinki] PHP Notice:  Undefined property: JDatabaseDriverMysql::$stderr in /home/imakler/public_html/administrator/components/com_socialads/models/approveads.php on line 389
+[27-Oct-2015 09:46:59 Europe/Helsinki] PHP Notice:  Undefined variable: msg in /home/imakler/public_html/administrator/components/com_socialads/controller.php on line 495
+[27-Oct-2015 09:49:07 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/imakler/public_html/plugins/payment/authorizenet/authorizenet/tmpl/default.php on line 134
+[27-Oct-2015 09:50:16 Europe/Helsinki] PHP Notice:  Undefined variable: body in /home/imakler/public_html/administrator/components/com_socialads/models/approveads.php on line 123
+[27-Oct-2015 09:50:16 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/imakler/public_html/administrator/components/com_socialads/models/approveads.php on line 141
+[27-Oct-2015 09:53:29 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/imakler/public_html/administrator/components/com_socialads/views/managezone/tmpl/form.php on line 770
+[27-Oct-2015 09:53:56 Europe/Helsinki] PHP Notice:  Undefined index: num_ads in /home/imakler/public_html/administrator/components/com_socialads/models/managezone.php on line 255
+[27-Oct-2015 10:49:31 Europe/Helsinki] PHP Notice:  Undefined variable: msg in /home/imakler/public_html/administrator/components/com_socialads/controller.php on line 495
+[27-Oct-2015 10:53:37 Europe/Helsinki] PHP Notice:  Undefined variable: msg in /home/imakler/public_html/administrator/components/com_socialads/controller.php on line 495
+[27-Oct-2015 10:57:27 Europe/Helsinki] PHP Notice:  Undefined variable: msg in /home/imakler/public_html/administrator/components/com_socialads/controller.php on line 495

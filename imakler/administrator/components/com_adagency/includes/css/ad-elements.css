@@ -1,0 +1,260 @@
+/*
+	* this files contain elements
+		> button
+		> form
+		> tables
+*/
+
+/*====================================
+	buttons
+=====================================*/
+.btn.btn-link{
+    padding: 0;
+    background: none;
+    border: 0 none;
+}
+
+.ij_adagency .btn-default, 
+.ij_adagency .btn {
+    background-image: none !important;
+    border-radius: 4px !important;
+    color: #FFFFFF !important;
+    line-height: 21px !important;
+    margin: 0 ;
+    text-shadow: none !important;
+    transition: all 0.15s ease 0s;
+    box-shadow: none;
+}
+/* default */
+.ij_adagency .btn, 
+.ij_adagency .btn-default,
+.label.label-default {
+    background-color: #7F8C8D !important;
+    border-color: #7F8C8D;
+}
+.ij_adagency .btn:hover, 
+.ij_adagency .btn-default:hover {
+    background-color: #707D7E !important;
+}
+
+/* primary */
+.ij_adagency .btn-primary, 
+.ij_adagency .btn.btn-primary,
+.label.label-primary{
+    background-color: #3498DB !important;
+    border-color: #3498DB;
+}
+.ij_adagency .btn-primary:hover,
+.ij_adagency .btn.btn-primary:hover {
+    background-color: #2489CC !important;
+}
+
+
+/* info */
+.ij_adagency .btn-info,
+.ij_adagency .btn.btn-info {
+    background-color: #6FB3E0 !important;
+    border-color: #6FB3E0;
+}
+.ij_adagency .btn-info:hover,
+.ij_adagency .btn.btn-info:hover {
+    background-color: #4F99C6 !important;
+}
+
+/* success */
+.ij_adagency .btn-success,
+.ij_adagency .btn.btn-success {
+    background-color: #87B87F !important;
+    border-color: #87B87F;
+}
+.ij_adagency .btn-success:hover,
+.ij_adagency .btn.btn-success:hover {
+    background-color: #629B58 !important;
+}
+
+/* warning */
+.ij_adagency .btn-warning {
+    background-color: #FFB752 !important;
+    border-color: #FFB752;
+}
+.ij_adagency .btn-warning:hover,
+.ij_adagency .btn.btn-warning:hover{
+    background-color: #E59729 !important;
+}
+
+/* danger */
+.ij_adagency .btn-danger,
+.ij_adagency .btn.btn-danger {
+    background-color: #D15B47 !important;
+    border-color: #D15B47;
+}
+.ij_adagency .btn-danger:hover,
+.ij_adagency .btn.btn-danger:hover {
+    background-color: #B74635 !important;
+}
+
+
+/* inverse */
+.ij_adagency .btn-inverse,
+.ij_adagency .btn.btn-inverse {
+	background-color: #555555 !important;
+    border-color: #555555;
+}
+.ij_adagency .btn-inverse:hover,
+.ij_adagency .btn.btn-inverse:hover {
+    background-color: #303030 !important;
+}
+
+/*fixing and exceptions*/
+/*#filter-bar .btn{
+    margin: 0 2px !important;
+    padding: 2px 12px !important;
+}
+.form-search .btn{
+    margin: 0 4px;
+}
+*/
+
+/*>>>>>>>>>> end buttons <<<<<<<<<<<*/
+
+/*====================================
+    forms
+=====================================*/
+#adagency_container .form-horizontal .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/
+
+
+
+
+/*====================================
+    tables
+=====================================*/
+.adg_table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+.adg_table .adg_table_row{
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+}
+.adg_table .adg_table_cell{
+    border-right: 1px solid #eeeeee;
+    min-height: 
+}
+.adg_table .adg_table_cell:last-child{
+    border-right: none;
+}
+.adg_table .adg_table_row .adg_th{
+    background: #34495e;
+    color: #eeeeee;
+    text-shadow: 1px 1px #000;    
+}
+
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/
+
+
+
+/*====================================
+    box styles
+=====================================*/
+
+/* bordered box */
+#adagency_container .adg_row > .adg_cell.adg_bordered_box > div >div { 
+    border-radius: 4px;
+    box-shadow: 0 0 1px;
+    padding: 10px;
+}
+
+/* adg_boxex */
+.adg_box > div > div {
+    background: none repeat scroll 0 0 #E1EDF2;
+    border-radius: 4px;
+    padding: 10px;
+}
+.adg_box > div .adg_box_sub > div{
+    background: #C2E4EF;
+    border-radius: 4px;
+    padding: 10px;
+}
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/
+
+
+/*====================================
+    control panel
+=====================================*/
+.adg_controlpanel a.items_adg {
+    background: none repeat scroll 0 0 #E1EDF2;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #C2E4EF;
+    display: block;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.25s ease 0s;
+}
+.adg_controlpanel a.items_adg:hover{
+    text-decoration: none;
+    font-weight: bold;
+    /*box-shadow: 0 0 0 1px #DDDDDD;*/
+    background: #C2E4EF;
+}
+.adg_controlpanel a.items_adg:hover span, 
+.adg_controlpanel a.items_adg:hover i{
+    color: #0088CC;
+}
+.adg_controlpanel .items_adg i{
+    display: block !important;
+    font-size: 40px;
+    min-height: 40px;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    color: #AAAAAA;
+}
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/
+
+/*====================================
+    control panel
+=====================================*/
+
+#adg_toolbar > div > div > div{
+    background: linear-gradient(#54ABF7, #449BE2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #287BB7;
+    border-radius: 6px;
+    padding: 0;
+}
+#adg_toolbar > div > div ul{
+    margin: 0 !important;
+}
+#adg_toolbar > div > div li{
+    float: left;
+    list-style: none;
+}
+#adg_toolbar > div > div li > a{
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    color: #F5F5F5;
+    display: inline-block;
+    padding: 7px 12px;
+    transition: all 0.2s ease 0s;
+}
+#adg_toolbar > div > div li > a i{
+    margin-right: 10px;
+}
+#adg_toolbar > div > div li a:hover, 
+#adg_toolbar > div > div li.adg_active a{
+    background: linear-gradient(#2172BA, #3793DE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#adg_toolbar > div > div li:first-child a:hover{
+    border-radius: 4px 0 0 4px;
+}
+/*>>>>>>>>>>>>>>>> *** <<<<<<<<<<<<<<*/

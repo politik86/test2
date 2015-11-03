@@ -1,0 +1,50 @@
+.title_one {
+	color: #00000;
+	font-size: 34px;
+	//font-weight: bold;
+}
+
+.title_two {
+	color: #990099;
+	font-size: 24px;
+	//font-weight: bold;
+	margin: 0 0 20px 0;
+}
+
+#camps {
+	font-size: 12px;
+}
+
+.upgrade_table {
+	width: 75%;
+	border-collapse:collapse;
+}
+
+.upgrade_table thead th {
+	text-align:left;
+	padding:2px;
+	background-color: #CCCCCC;
+	font-size:14px;
+}
+
+.upgrade_table tbody td {
+	font-weight: 14px;
+	border-bottom: 2px solid #DADADA;
+	padding: 3px 2px 12px 2px;
+}
+
+.ztitle, .zposition {
+	font-size: 14px;
+}
+.sup_title, .sup_banners {
+	float:left;
+}
+.upgrade_button {
+	font-weight:bold;
+	padding:4px;
+	font-size:13px;
+	margin-right: 150px;
+}
+#adminForm .adsize_container {
+	margin-bottom: 4px;
+}

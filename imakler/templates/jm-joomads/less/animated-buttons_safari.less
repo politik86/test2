@@ -1,0 +1,257 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   VARIABLES import
+   ========================================================================== */
+  
+@import "template_variables.less";
+
+/* ==========================================================================
+   MIXINS import
+   ========================================================================== */
+
+@import "template_mixins.less";
+@import "../../../plugins/system/jmframework/includes/assets/template/bootstrap/less/mixins.less";
+
+/* ==========================================================================
+   EDITOR styles
+   ========================================================================== */
+
+/* select fix */
+
+select {
+    line-height: 30px;
+}
+
+/* video module*/
+
+.view {
+  cursor: default;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  .mask,
+  .content {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mask span.space {
+    height: 50%;
+    display: block;
+  }
+  .readmore {
+    margin: -18px auto 0;
+    -webkit-backface-visibility:hidden;
+  }
+}
+
+.view-video {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .box-shadow(0 0 0 10px rgba(255, 255, 255, 0.3) inset);
+    z-index: 2;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: url('../images/video-play.png') no-repeat;
+    .transition(all 0.5s ease-out 0s);
+    .opacity(100);
+    z-index: 1;
+  }
+  &:hover:after {
+    .opacity(0);
+  }
+  img {
+    .opacity(100);
+    .transition(all 0.5s ease-out 0s);
+    position: relative;
+    display: inline-block;
+  }
+  .mask {
+    .opacity(0);
+    .transition(all 0.3s ease-out 0s);
+    z-index: 10;
+    .box-shadow(0 0 0 10px rgba(255, 255, 255, 0.3) inset);
+  }
+}
+
+.view-video:hover {
+  img {
+    .opacity(0);
+  }
+  .mask {
+    .opacity(100);
+  }
+}
+
+.view .mask {
+    background: #eee;
+}
+
+/* image hovers */
+
+.ch-item.ch-first {
+  .box-shadow(0 0 0 10px rgba(255, 255, 255, 0.3) inset);
+}   
+    
+.ch-item.ch-third .ch-info-front {
+  .box-shadow(0 0 0 10px rgba(255, 255, 255, 0.3) inset);
+}
+
+.ch-item {
+  position: relative;
+  width: 280px;
+  height: 250px;
+}
+
+x:-o-prefocus,
+.ch-item {
+  border: none; /* opera fix */
+}
+
+.ch-item {
+  .ch-info .ch-container {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .ch-info .ch-outer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .ch-info p {
+    padding: 20px 5px 0;
+    margin: 0;
+    text-align: center;
+    .box-sizing(border-box);
+    font-size: 18px !important;
+    line-height: 30px;
+    background: url("../images/badge_sep.png") no-repeat top center;
+  }
+  .ch-info p a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .ch-info p a:hover {
+    text-decoration: underline;
+  }
+  .ch-info p span.smaller {
+    font-size: 16px !important;
+    line-height: 22px;
+    font-weight: normal;
+  }
+}
+
+/* first */
+
+.ch-item.ch-first {
+  position: relative;
+  cursor: default;
+  .transition(all 0.4s ease-in-out);
+  .ch-info {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 260px;
+    height: 230px;
+    .opacity(0);
+    .transition(all 0.4s ease-in-out);
+  }
+  &:hover .ch-info {
+    .opacity(100);
+  }
+}
+
+/*second*/
+
+.ch-item.ch-second {
+  position: relative;
+  cursor: default;
+  overflow: hidden;
+  .ch-info-wrap {
+    position: absolute;
+    width: 260px;
+    height: 230px;
+    .transition(all 0.4s ease-in-out);
+    left: 10px;
+    top: 10px;
+    .box-shadow(0 0 0 10px rgba(255, 255, 255, 0.3));
+  }
+  .ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    .transition(all 0.4s ease-in-out);
+  } 
+  .ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+  }
+}
+
+/** fix **/
+.ch-item.ch-second .ch-info .ch-info-back {
+  display: none;
+}
+.ch-item.ch-second:hover .ch-info .ch-info-back {
+  display: block;
+}
+
+/*third*/
+
+.ch-item.ch-third {
+  position: relative;
+  cursor: default;
+  .ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    .transition(all 0.4s linear);
+  }
+  .ch-info .ch-info-back {
+    .opacity(0);
+  }
+  &:hover .ch-info-front {
+    .opacity(0);
+  }
+  &:hover .ch-info-back {
+    .opacity(100);
+  }
+}

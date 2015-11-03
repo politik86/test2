@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="Managead" hidden="false" >
+		<message><![CDATA[Manage your ads-Edit or Buy.]]></message>
+		<options var="task">
+ 			<default name="Manage Ads" msg="Display a list of Ads created by User" />
+	  	</options>
+	</view>
+	<state>
+			<name>Manage Ads</name>
+			<description>Display a list of Ads created by User</description>
+	</state>
+</metadata>

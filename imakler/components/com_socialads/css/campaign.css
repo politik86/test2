@@ -1,0 +1,14 @@
+
+/*campaign-create*/
+
+
+.com_socialads_repeating_block{
+border:1px dotted; padding:20px 0px 0px 5px;
+}
+.com_socialads_add_button label, .com_socialads_remove_button label{
+	visibility:hidden;
+}
+.clerfix
+{
+clear:both;
+}

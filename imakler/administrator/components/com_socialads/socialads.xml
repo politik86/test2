@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/3.0/component-install.dtd">
+<extension type="component" version="3.0" method="upgrade">
+	<name>com_socialads</name>
+	<creationDate>29th Jul 2015</creationDate>
+	<version>3.0.10</version>
+	<author>Techjoomla</author>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<copyright>(c) Techjoomla</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<!-- The description is optional and defaults to the name -->
+	<description>SocialAds. Advertising for Joomla with a Social Touch !</description>
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>geo</folder>
+		<folder>log</folder>
+		<folder>helpers</folder>
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>helper.php</filename>
+		<filename>socialads.php</filename>
+		<filename>adshelper.php</filename>
+		<filename>defines.php</filename>
+		<filename>remote.php</filename>
+	</files>
+	<languages folder="site/lang">
+		<language tag="en-GB">en-GB/en-GB.com_socialads.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.com_socialads.ini</language>
+		<language tag="it-IT">it-IT/it-IT.com_socialads.ini</language>
+		<language tag="de-DE">de-DE/de-DE.com_socialads.ini</language>
+		<language tag="es-ES">es-ES/es-ES.com_socialads.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.com_socialads.ini</language>
+		<language tag="sv-SE">sv-SE/sv-SE.com_socialads.ini</language>
+		<language tag="th-TH">th-TH/th-TH.com_socialads.ini</language>
+		<language tag="da-DK">da-DK/da-DK.com_socialads.ini</language>
+		<language tag="pt-PT">pt-PT/pt-PT.com_socialads.ini</language>
+	</languages>
+
+	<administration>
+		<menu link="option=com_socialads" img="../administrator/components/com_socialads/images/social-ads16x16.png">com_socialads</menu>
+		<submenu>
+			<menu link="option=com_socialads&amp;view=settings" img="components/com_socialads/images/process_16.png">COM_SETT</menu>
+			<menu link="option=com_socialads&amp;view=importfields" img="components/com_socialads/images/import_16.png">COM_IMPORT</menu>
+			<menu link="option=com_socialads&amp;view=approveads" img="components/com_socialads/images/rightick_16.png">COM_APPROV</menu>
+			<menu link="option=com_socialads&amp;view=adorders" img="components/com_socialads/images/order_16.png">COM_ORDER</menu>
+			<menu link="option=com_socialads&amp;view=managezone" img="components/com_socialads/images/zone_16.png">COM_ZONE</menu>
+			<menu link="option=com_socialads&amp;view=managecoupon" img="components/com_socialads/images/coupon_16.png">COM_COUPON</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>sqlfiles</folder>
+			<folder>views</folder>
+			<folder>tables</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>css</folder>
+			<filename>index.html</filename>
+			<filename>socialads.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+		</files>
+
+	 	<languages folder="admin/lang">
+			<language tag="en-GB">en-GB/en-GB.com_socialads.ini</language>
+				<language tag="en-GB">en-GB/en-GB.com_socialads.sys.ini</language>
+				<language tag="en-GB">en-GB/en-GB.com_socialads.menu.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_socialads.ini</language>
+				<language tag="de-DE">de-DE/de-DE.com_socialads.sys.ini</language>
+		 		<language tag="de-DE">de-DE/de-DE.com_socialads.menu.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_socialads.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_socialads.ini</language>
+				<language tag="es-ES">es-ES/es-ES.com_socialads.menu.ini</language>
+				<language tag="es-ES">es-ES/es-ES.com_socialads.sys.ini</language>
+			<language tag="th-TH">th-TH/th-TH.com_socialads.ini</language>
+				<language tag="th-TH">th-TH/th-TH.com_socialads.menu.ini</language>
+				<language tag="th-TH">th-TH/th-TH.com_socialads.sys.ini</language>
+			<language tag="sv-SE">sv-SE/sv-SE.com_socialads.ini</language>
+				<language tag="sv-SE">sv-SE/sv-SE.com_socialads.menu.ini</language>
+				<language tag="sv-SE">sv-SE/sv-SE.com_socialads.sys.ini</language>
+			<language tag="nl-NL">nl-NL/nl-NL.com_socialads.ini</language>
+				<language tag="nl-NL">nl-NL/nl-NL.com_socialads.menu.ini</language>
+				<language tag="nl-NL">nl-NL/nl-NL.com_socialads.sys.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_socialads.ini</language>
+			<language tag="da-DK">da-DK/da-DK.com_socialads.ini</language>
+				<language tag="da-DK">da-DK/da-DK.com_socialads.menu.ini</language>
+				<language tag="da-DK">da-DK/da-DK.com_socialads.sys.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_socialads.ini</language>
+				<language tag="pt-PT">pt-PT/pt-PT.com_socialads.menu.ini</language>
+				<language tag="pt-PT">pt-PT/pt-PT.com_socialads.sys.ini</language>
+		</languages>
+	</administration>
+	<scriptfile>install.socialads.php</scriptfile>
+	<updateservers>
+		<server type="extension" priority="1" name="SocialAds updates"><![CDATA[https://techjoomla.com/component/ars/updates/components/socialads?format=xml&dummy=extension.xml]]></server>
+	</updateservers>
+</extension>
+

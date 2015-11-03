@@ -1,0 +1,178 @@
+.titleComment, .tbTitle
+{
+	border-collapse:collapse;
+	border-spacing:0pt 0pt;
+	line-height:20px;
+	color:#000000;
+	width:100%;
+	margin-top:10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.clear
+{
+	clear: both;
+	padding-top: 8px;
+}
+
+
+.tbTitleMiddle
+{
+border-left: 1px solid #F0F0F0;
+border-right: 1px solid #F0F0F0;
+padding:3px 1px;
+}
+
+
+
+
+
+.tbTitleMiddle h5, .tbTitleMiddleRed h5
+{
+	color: #666666;
+	font-size:120%;
+	margin:0px;
+	padding:2px 10px;
+	overflow:none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.icon-48-icon-48-social {
+background-image:url(../images/icon-48-social.png)!important;
+}
+
+.icon-reset {
+background:url(../images/social-reset.png) no-repeat center !important;
+}
+
+.setting-td {
+	width:50%;
+}
+
+.invalid{
+border-color:red;
+}
+
+span.latestbutton{
+color:#0B55C4;
+cursor: pointer;
+}
+span.latestbutton:hover{
+text-decoration:underline;
+}
+
+.setting-td input, .setting-td label{display:inline; float:none;}
+
+.current fieldset img{float:none;}
+
+.plug_enabled{color:green;}
+.plug_disabled{color:red;}
+
+.sa-docs-periodic-income {
+position: relative;
+margin: 15px 0;
+padding: 39px 19px 14px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(221, 221, 221);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.sa-docs-periodic-income:after {
+content: "Periodic income";
+position: absolute;
+top: -1px;
+left: -1px;
+padding: 3px 7px;
+font-weight: bold;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(221, 221, 221);
+color: rgb(157, 160, 164);
+-webkit-border-radius: 4px 0 4px 0;
+-moz-border-radius: 4px 0 4px 0;
+border-radius: 4px 0 4px 0;
+}
+
+.sa-docs-alltime-income {
+position: relative;
+margin: 15px 0;
+padding: 39px 19px 14px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(221, 221, 221);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.sa-docs-alltime-income:after {
+content: "All-time total orders income";
+position: absolute;
+top: -1px;
+left: -1px;
+padding: 3px 7px;
+font-weight: bold;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(221, 221, 221);
+color: rgb(157, 160, 164);
+-webkit-border-radius: 4px 0 4px 0;
+-moz-border-radius: 4px 0 4px 0;
+border-radius: 4px 0 4px 0;
+}
+
+.sa-docs-periodic-orders {
+position: relative;
+margin: 15px 0;
+padding: 39px 19px 14px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(221, 221, 221);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.sa-docs-periodic-orders:after {
+content: "Periodic Orders";
+position: absolute;
+top: -1px;
+left: -1px;
+padding: 3px 7px;
+font-weight: bold;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(221, 221, 221);
+color: rgb(157, 160, 164);
+-webkit-border-radius: 4px 0 4px 0;
+-moz-border-radius: 4px 0 4px 0;
+border-radius: 4px 0 4px 0;
+}
+
+
+.sa-docs-monthly-orders-income {
+position: relative;
+margin: 15px 0;
+padding: 39px 19px 14px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(221, 221, 221);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.sa-docs-monthly-orders-income:after {
+content: "Monthly orders income";
+position: absolute;
+top: -1px;
+left: -1px;
+padding: 3px 7px;
+font-weight: bold;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(221, 221, 221);
+color: rgb(157, 160, 164);
+-webkit-border-radius: 4px 0 4px 0;
+-moz-border-radius: 4px 0 4px 0;
+border-radius: 4px 0 4px 0;
+}

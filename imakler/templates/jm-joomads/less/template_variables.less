@@ -1,0 +1,418 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/* ==========================================================================
+   COLOR styles
+   ========================================================================== */
+  
+// Color versions
+// --------------------------------------------------
+   
+@JMstyle1: #017eba;
+@JMstyle1color2: #29b6a6;
+
+@JMstyle2: #d95b43;
+@JMstyle2color2: #53777a;
+
+@JMstyle3: #ce616e;
+@JMstyle3color2: #017eba;
+
+@JMstyle4: #739d18;
+@JMstyle4color2: #835d41;
+
+// Global colors
+// --------------------------------------------------
+
+@JMwhite: #ffffff;
+@JMblack: #000000;
+
+// Layout values
+// --------------------------------------------------
+
+//gutter
+@JMbaseSpace: 30px;
+
+//default line-height
+@JMbaseLineHeight: 1.5em;
+
+//logo
+@JMlogoFontColor: #080808;
+@JMsiteDescriptionFontColor: #080808;
+
+//body font color
+@JMbodyFont: #808080;
+
+//body background colors
+@JMbodyBackgroundColor: #393F48;
+
+//allpage background
+@JMallpageBackground: #efefeb;
+
+//bar background
+@JMbarBackground: @JMwhite;
+
+//borders
+@JMborder: #e3e3df;
+@JMborderBottom: #cbcbc8;
+
+//footer
+@JMfooterFontColor: #848e9e;
+@JMfooterBackground: @JMbodyBackgroundColor;
+@JMfooterTopBorder: #e1e1e1;
+
+@JMfootermodBottomBorder: #424952;
+
+//links hover
+@JMstyle1Link: @JMstyle1;
+@JMstyle2Link: @JMstyle2;
+@JMstyle3Link: @JMstyle3;
+@JMstyle4Link: @JMstyle4;
+
+//article-info
+@JMarticleInfoFontColor: #b2b2b2;
+
+// DJ Megamenu values
+// --------------------------------------------------
+
+@JMstyle1MegamenuArrowColor: #1387bf;
+@JMstyle2MegamenuArrowColor: #dc6750;
+@JMstyle3MegamenuArrowColor: #d16c78;
+@JMstyle4MegamenuArrowColor: #8aad3e;
+
+@JMstyle1MegamenuSubmenuActiveFontColor: @JMstyle1;
+@JMstyle2MegamenuSubmenuActiveFontColor: @JMstyle2;
+@JMstyle3MegamenuSubmenuActiveFontColor: @JMstyle3;
+@JMstyle4MegamenuSubmenuActiveFontColor: @JMstyle4;
+
+// Menu Module values
+// --------------------------------------------------
+
+@JMmenuFontColor: #747474;
+
+@JMmenuActiveBackground: #fbfbfb;
+@JMwhitemsMenuActiveBackground: #f1f1f1;
+@JMmegamenuMenuActiveBackground: @JMwhitemsMenuActiveBackground;
+
+@JMfooterMenuFontColor: #848e9e;
+@JMfooterMenuActiveBackground: #424952;
+
+@JMstyle1MenuArrowColor: @JMstyle1MegamenuArrowColor;
+@JMstyle2MenuArrowColor: @JMstyle2MegamenuArrowColor;
+@JMstyle3MenuArrowColor: @JMstyle3MegamenuArrowColor;
+@JMstyle4MenuArrowColor: @JMstyle4MegamenuArrowColor;
+
+@JMstyle1MenuActiveFontColor: @JMstyle1;
+@JMstyle2MenuActiveFontColor: @JMstyle2;
+@JMstyle3MenuActiveFontColor: @JMstyle3;
+@JMstyle4MenuActiveFontColor: @JMstyle4;
+
+@JMclassicmsMenuBorderSeparator: @JMborder;
+@JMwhitemsClassicmsMenuBorderSeparator: #ededed;
+
+@JMfooterClassicmsBorderSeparator: #424952;
+
+@JMstyle1ClassicmsMenuActiveFontColor: @JMstyle1;
+@JMstyle2ClassicmsMenuActiveFontColor: @JMstyle2;
+@JMstyle3ClassicmsMenuActiveFontColor: @JMstyle3;
+@JMstyle4ClassicmsMenuActiveFontColor: @JMstyle4;
+
+@JMtopbarMenuFontColor: #808080;
+@JMtopbarColorFontColor: @JMwhite;
+
+@JMstyle1TopbarColorButton: @JMstyle1color2;
+@JMstyle2TopbarColorButton: @JMstyle2color2;
+@JMstyle3TopbarColorButton: @JMstyle3color2;
+@JMstyle4TopbarColorButton: @JMstyle4color2;
+
+@JMstyle1TopbarColorActiveButton: #25a395;
+@JMstyle2TopbarColorActiveButton: #486668;
+@JMstyle3TopbarColorActiveButton: #066d9e;
+@JMstyle4TopbarColorActiveButton: #674a35;
+
+// Modules values
+// --------------------------------------------------
+
+@JMmoduleTitleFontColor: #080808;
+@JMfooterModuleTitleFontColor: #848e9e;
+@JMfooterModuleFontColor: @JMwhite;
+
+@JMwhitemsBackground: @JMwhite;
+@JMwhitemsFontColor: #5F5F5F;
+@JMwhitemsTitleFontColor: @JMmoduleTitleFontColor;
+@JMwhitemsTitleBorderBottom: #ebebeb;
+
+@JMwhitemsInputBackground: #f6f6f6;
+@JMwhitemsInputBorder: #e9e9e9;
+@JMwhitemsInputFocusBorder: #dbdbdb;
+
+@JMtitleboxmsTitleFontColor: @JMmoduleTitleFontColor;
+@JMtitleboxmsBackground: @JMwhite;
+
+@JMstyle1TitleboxmsModuleBorder: @JMstyle1;
+@JMstyle2TitleboxmsModuleBorder: @JMstyle2;
+@JMstyle3TitleboxmsModuleBorder: @JMstyle3;
+@JMstyle4TitleboxmsModuleBorder: @JMstyle4;
+
+@JMdoubletitlemsTitleFontColor: #313740;
+@JMdoubletitlemsTitleBorderBottom: #d5d5d5;
+
+@JMFooterDoubletitlemsTitleFontColor: @JMwhite;
+@JMFooterDoubletitlemsTitleBorderBottom: #313740;
+
+//jm-search
+@JMsearchInputFontColor: #808080;
+@JMsearchInputBackground: @JMwhite;
+
+@JMstyle1SearchBorderColor: @JMstyle1;
+@JMstyle2SearchBorderColor: @JMstyle2;
+@JMstyle3SearchBorderColor: @JMstyle3;
+@JMstyle4SearchBorderColor: @JMstyle4;
+
+@JMstyle1SearchButtonBackground: @JMstyle1;
+@JMstyle2SearchButtonBackground: @JMstyle2;
+@JMstyle3SearchButtonBackground: @JMstyle3;
+@JMstyle4SearchButtonBackground: @JMstyle4;
+
+@JMstyle1SearchButtonActiveBackground: #0171a7;
+@JMstyle2SearchButtonActiveBackground: #c7553f;
+@JMstyle3SearchButtonActiveBackground: #b95c67;
+@JMstyle4SearchButtonActiveBackground: #618317;
+
+// Buttons values
+// --------------------------------------------------
+  
+@JMbuttonFontSize: 13px;
+@JMbuttonHeight: 42px;
+@JMbuttonMiniHeight: 20px; //Note: button height, e.g. .btn-mini .button-groups .btn
+@JMbuttonSmallHeight: 30px;
+
+@JMbuttonFontColor: @JMwhite;
+
+@JMstyle1ButtonBackground: @JMstyle1color2;
+@JMstyle2ButtonBackground: @JMstyle2color2;
+@JMstyle3ButtonBackground: @JMstyle3color2;
+@JMstyle4ButtonBackground: @JMstyle4color2;
+
+@JMstyle1ButtonActiveBackground: #25a395;
+@JMstyle2ButtonActiveBackground: #486668;
+@JMstyle3ButtonActiveBackground: #066d9e;
+@JMstyle4ButtonActiveBackground: #674a35;
+
+//dropdowns (article edit button list background)
+@JMstyle1ButtonDropdown: @JMstyle1;
+@JMstyle2ButtonDropdown: @JMstyle2;
+@JMstyle3ButtonDropdown: @JMstyle3;  
+@JMstyle4ButtonDropdown: @JMstyle4;  
+ 
+//inputs 
+@JMinputHeight: 42px; //Note: select and input[type="file"] height need to be set in bootstrap variables
+@JMinputFontSize: 13px; 
+@JMinputBorder: #e9e9e9;
+@JMinputFontColor: #979ea1;
+@JMinputBackground: #f6f6f6;
+@JMinputFocusBorder: #dbdbdb;
+
+@JMfooterInputBorder: #666c74;
+@JMfooterInputBackground: #535961;
+@JMfooterInputFocusBorder: #7f848a;
+
+//readmore
+@JMreadmoreFontSize: 13px;
+
+@JMstyle1ReadmoreFontColor: @JMstyle1color2;
+@JMstyle2ReadmoreFontColor: @JMstyle2color2;
+@JMstyle3ReadmoreFontColor: @JMstyle3color2;
+@JMstyle4ReadmoreFontColor: @JMstyle4color2;
+
+@JMstyle1ReadmoreActiveBackground: rgba(41,182,166, 0.1);
+@JMstyle2ReadmoreActiveBackground: rgba(83,119,122, 0.1);
+@JMstyle3ReadmoreActiveBackground: rgba(1,126,186, 0.1);
+@JMstyle4ReadmoreActiveBackground: rgba(131,93,65, 0.1);
+
+@JMstyle1ReadmoreBorder: @JMstyle1color2;
+@JMstyle2ReadmoreBorder: @JMstyle2color2;
+@JMstyle3ReadmoreBorder: @JMstyle3color2;
+@JMstyle4ReadmoreBorder: @JMstyle4color2;
+
+// Template values
+// --------------------------------------------------
+
+//pager
+@JMpagerFontColor: @JMwhite;
+@JMpagerBackground: #d4d4d4;
+@JMpagerActiveBackground: #bebebe;
+
+//pagination
+@JMpaginationFontColor: #393f48;
+@JMpaginationActiveFontColor: @JMwhite;
+@JMpaginationActiveBackground: #393f48;
+@JMpaginationHoverBackground: #d4d4d4;
+@JMpaginationInactiveFontColor: #888888;
+
+//accordion
+@JMaccordionBackground: @JMwhite;
+@JMaccordionFontColor: #979EA1;
+@JMaccordionActiveFontColor: @JMblack;
+
+//tabs
+@JMtabBackground: @JMwhite;
+@JMtabFontColor: #979EA1;
+@JMtabActiveFontColor: @JMblack;
+
+//table
+@JMtableHeadingBackground: #333333;
+@JMtableHeadingFontColor: #bfbfbf;
+@JMtableHeadingBorder: #4c4c4c;
+@JMtableRowBorder: @JMborder;
+
+//headings links hover
+@JMheadingFontColor: @JMmoduleTitleFontColor;
+
+@JMstyle1HeadingActiveFontColor: @JMstyle1;
+@JMstyle2HeadingActiveFontColor: @JMstyle2;
+@JMstyle3HeadingActiveFontColor: @JMstyle3;
+@JMstyle4HeadingActiveFontColor: @JMstyle4;
+
+// Classifieds
+// --------------------------------------------------
+
+@JMstyle1ClassifiedsTitleBorder: @JMstyle1TitleboxmsModuleBorder;
+@JMstyle2ClassifiedsTitleBorder: @JMstyle2TitleboxmsModuleBorder;
+@JMstyle3ClassifiedsTitleBorder: @JMstyle3TitleboxmsModuleBorder;
+@JMstyle4ClassifiedsTitleBorder: @JMstyle4TitleboxmsModuleBorder;
+
+@JMstyle1ClassifiedsAdvertTitle: @JMstyle1color2;
+@JMstyle2ClassifiedsAdvertTitle: @JMstyle2color2;
+@JMstyle3ClassifiedsAdvertTitle: @JMstyle3color2;
+@JMstyle4ClassifiedsAdvertTitle: @JMstyle4color2;
+
+@JMstyle1ClassifiedsPrice: @JMstyle1color2;
+@JMstyle2ClassifiedsPrice: @JMstyle2color2;
+@JMstyle3ClassifiedsPrice: @JMstyle3color2;
+@JMstyle4ClassifiedsPrice: @JMstyle4color2;
+
+@JMstyle1ClassifiedsSubmitButton: @JMstyle1SearchButtonBackground;
+@JMstyle2ClassifiedsSubmitButton: @JMstyle2SearchButtonBackground;
+@JMstyle3ClassifiedsSubmitButton: @JMstyle3SearchButtonBackground;
+@JMstyle4ClassifiedsSubmitButton: @JMstyle4SearchButtonBackground;
+
+@JMstyle1ClassifiedsSubmitActiveButton: @JMstyle1SearchButtonActiveBackground;
+@JMstyle2ClassifiedsSubmitActiveButton: @JMstyle2SearchButtonActiveBackground;
+@JMstyle3ClassifiedsSubmitActiveButton: @JMstyle3SearchButtonActiveBackground;
+@JMstyle4ClassifiedsSubmitActiveButton: @JMstyle4SearchButtonActiveBackground;
+
+@JMstyle1ClassifiedsPromotionBackground: #ecfaf8;
+@JMstyle2ClassifiedsPromotionBackground: #edf1f1;
+@JMstyle3ClassifiedsPromotionBackground: #e5f2f8;
+@JMstyle4ClassifiedsPromotionBackground: #f2eeec;
+
+@JMstyle1ClassifiedsPromotionBorder: @JMstyle1color2;
+@JMstyle2ClassifiedsPromotionBorder: @JMstyle2color2;
+@JMstyle3ClassifiedsPromotionBorder: @JMstyle3color2;
+@JMstyle4ClassifiedsPromotionBorder: @JMstyle4color2;
+
+@JMstyle1ClassifiedsPromotionInsetBorder: #ccf2ed;
+@JMstyle2ClassifiedsPromotionInsetBorder: #dbecec;
+@JMstyle3ClassifiedsPromotionInsetBorder: #d5eefa;
+@JMstyle4ClassifiedsPromotionInsetBorder: #eee5e1;
+
+// Mediatools
+// --------------------------------------------------
+
+@JMmediatoolsAlbumTitle: #080808;
+
+@JMmediatoolsDescriptionBackground: @JMwhite;
+
+@JMmediatoolsSlideTitle: #313740;
+@JMmediatoolsSlideDescription: @JMmediatoolsSlideTitle;
+
+@JMmediatoolsGalleryGridDescription: #808080;
+
+@JMmediatoolsGalleryGridDescriptionPink: #8d0139;
+@JMmediatoolsGalleryGridDescriptionPinkBackground: #e02e75;
+
+@JMmediatoolsGalleryGridDescriptionBlue: #004a6c;
+@JMmediatoolsGalleryGridDescriptionBlueBackground: #017eba;
+
+@JMstyle1MediatoolsGalleryGridSlideTitle: @JMstyle1color2;
+@JMstyle2MediatoolsGalleryGridSlideTitle: @JMstyle2color2;
+@JMstyle3MediatoolsGalleryGridSlideTitle: @JMstyle3color2;
+@JMstyle4MediatoolsGalleryGridSlideTitle: @JMstyle4color2;
+
+@JMmediatoolsGalleryGridSlideColorTilte: @JMwhite;
+@JMmediatoolsGalleryGridSlideColorReadmore: @JMwhite;
+@JMmediatoolsGalleryGridSlideColorPrice: @JMwhite;
+
+@JMstyle1MediatoolsPrice: @JMstyle1color2;
+@JMstyle2MediatoolsPrice: @JMstyle2color2;
+@JMstyle3MediatoolsPrice: @JMstyle3color2;
+@JMstyle4MediatoolsPrice: @JMstyle4color2;
+
+@JMstyle1MediatoolsReadmore: @JMstyle1color2;
+@JMstyle2MediatoolsReadmore: @JMstyle2color2;
+@JMstyle3MediatoolsReadmore: @JMstyle3color2;
+@JMstyle4MediatoolsReadmore: @JMstyle4color2;
+
+@JMstyle1MediatoolsReadmoreBackground: @JMstyle1;
+@JMstyle2MediatoolsReadmoreBackground: @JMstyle2;
+@JMstyle3MediatoolsReadmoreBackground: @JMstyle3;
+@JMstyle4MediatoolsReadmoreBackground: @JMstyle4;
+
+@JMstyle1MediatoolsReadmoreTriangleBackground: #006697;
+@JMstyle2MediatoolsReadmoreTriangleBackground: #bc4933;
+@JMstyle3MediatoolsReadmoreTriangleBackground: #b74754;
+@JMstyle4MediatoolsReadmoreTriangleBackground: #5c800e;
+
+@JMmediatoolsSlider1msReadmoreFont: @JMwhite;
+
+@JMmediatoolsModuleBackground: @JMwhite;
+
+@JMmediatoolsNavigationActiveFont: @JMwhite;
+
+@JMstyle1MediatoolsNavigationActiveBackground: @JMstyle1;
+@JMstyle2MediatoolsNavigationActiveBackground: @JMstyle2;
+@JMstyle3MediatoolsNavigationActiveBackground: @JMstyle3;
+@JMstyle4MediatoolsNavigationActiveBackground: @JMstyle4;
+
+@JMstyle1MediatoolsNavigationBorder: @JMstyle1;
+@JMstyle2MediatoolsNavigationBorder: @JMstyle2;
+@JMstyle3MediatoolsNavigationBorder: @JMstyle3;
+@JMstyle4MediatoolsNavigationBorder: @JMstyle4;
+
+@JMstyle1MediatoolsNavigationFont: @JMstyle1;
+@JMstyle2MediatoolsNavigationFont: @JMstyle2;
+@JMstyle3MediatoolsNavigationFont: @JMstyle3;
+@JMstyle4MediatoolsNavigationFont: @JMstyle4;
+
+@JMmediatoolsTabberBorderColor: #ebebeb;
+@JMmediatoolsTabberActiveBackground: #f1f1f1;
+
+@JMmediatoolsSlider2msDescription: #808080;
+
+@JMstyle1MediatoolsSlider2msSlideTitle: @JMstyle1color2;
+@JMstyle2MediatoolsSlider2msSlideTitle: @JMstyle2color2;
+@JMstyle3MediatoolsSlider2msSlideTitle: @JMstyle3color2;
+@JMstyle4MediatoolsSlider2msSlideTitle: @JMstyle4color2;
+
+@JMstyle1MediatoolsSlider2msReadmore: @JMstyle1color2;
+@JMstyle2MediatoolsSlider2msReadmore: @JMstyle2color2;
+@JMstyle3MediatoolsSlider2msReadmore: @JMstyle3color2;
+@JMstyle4MediatoolsSlider2msReadmore: @JMstyle4color2;
+
+@JMstyle1MediatoolsSlider2msReadmoreBorder: @JMstyle1color2;
+@JMstyle2MediatoolsSlider2msReadmoreBorder: @JMstyle2color2;
+@JMstyle3MediatoolsSlider2msReadmoreBorder: @JMstyle3color2;
+@JMstyle4MediatoolsSlider2msReadmoreBorder: @JMstyle4color2;
+
+
+
+
+
+
+
+
+

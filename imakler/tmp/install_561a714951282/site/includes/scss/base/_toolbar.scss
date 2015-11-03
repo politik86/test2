@@ -1,0 +1,27 @@
+// AdAgency @ 2015
+// Toolbar
+//////////////////////////////////////////////
+
+.ada-toolbar {
+	margin-bottom: 25px;
+	display: none;
+	@include medium {
+		display: block;
+	}
+}
+
+.ada-toolbar-mobile {
+	margin-bottom: 25px;
+	border: none;
+	background-color: #e0e0e0;
+	color: #444;
+	border: 1px solid #bdbdbd;
+	border-radius: 6px;
+	// box-shadow
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow:    inset 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+	box-shadow:         inset 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+	@include medium {
+		display: none;
+	}
+}

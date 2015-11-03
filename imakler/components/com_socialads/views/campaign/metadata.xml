@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+
+<metadata>
+	<view title="campaigns" >
+		<message><![CDATA[Create Campaign and list of campaign]]></message>	
+		 <options var="task">
+ 			<default name="Campaigns" msg="View to Create new Campaign and Display a list of Campaign" />
+		  </options>
+	</view>	
+	<state>
+	<name>Campaigns</name>
+	<description>View to Create new Campaign and Display a list of Campaign</description>	 
+	</state>
+</metadata>

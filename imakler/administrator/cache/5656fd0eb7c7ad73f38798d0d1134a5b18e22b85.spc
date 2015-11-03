@@ -1,0 +1,1 @@
+a:2:{s:3:"url";s:47:"http://ijoomla.com/component/obrss/ijoomla-com/";s:8:"feed_url";s:46:"http://ijoomla.com/component/obrss/ijoomla.com";}

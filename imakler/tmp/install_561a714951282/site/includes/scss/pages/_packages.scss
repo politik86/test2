@@ -1,0 +1,119 @@
+// AdAgency @ 2015
+// Page: Packages
+//////////////////////////////////////////////
+
+.ada-packages {
+}
+
+.ada-packages-heading {
+  margin-bottom: 25px;
+}
+
+.ada-packages-title {
+}
+
+.ada-packages-subtitle {
+	line-height: 26px;
+}
+
+.ada-packages-name {
+	background-color: #ef5350;
+	color: white;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	h4 {
+		margin: 0;
+		padding: 10px 20px;
+		border-left: 1px solid rgba(0,0,0, 0.1);
+	}
+	li {
+		&:first-child {
+			h4 {
+				border-left: none;
+			}
+		}
+	}
+}
+
+.ada-package {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.adag_tip {
+		color: #00b0ff;
+		margin-left: 5px;
+	}
+}
+
+.ada-package-title {
+	margin-top: 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.ada-package-desc {
+	padding: 20px;
+	height: 100%;
+	background-color: #eee;
+
+	@include medium {
+		background-color: transparent;
+		border-right: 1px dashed rgba(0,0,0, 0.1);
+		// box-shadow
+		-webkit-box-shadow: inset 0px -4px 0px 0px #ffe082;
+		-moz-box-shadow:    inset 0px -4px 0px 0px #ffe082;
+		box-shadow:         inset 0px -4px 0px 0px #ffe082;
+	}
+}
+
+.ada-package-zone {
+	padding: 20px;
+	height: 100%;
+
+	@include medium {
+		border-right: 1px dashed rgba(0,0,0, 0.1);
+		// box-shadow
+		-webkit-box-shadow: inset 0px -4px 0px 0px #ffa726;
+		-moz-box-shadow:    inset 0px -4px 0px 0px #ffa726;
+		box-shadow:         inset 0px -4px 0px 0px #ffa726;
+	}
+}
+
+.ada-package-cost {
+	padding: 20px 20px 80px;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	// box-shadow
+	-webkit-box-shadow: inset 0px -4px 0px 0px #ff5722;
+	-moz-box-shadow:    inset 0px -4px 0px 0px #ff5722;
+	box-shadow:         inset 0px -4px 0px 0px #ff5722;
+
+	.ada-package-title {
+		padding-top: 10px;
+		font-size: 40px;
+	}
+
+	.ada-package-form {
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+	}
+}
+
+.ada-package-list {
+	margin-top: 15px;
+	margin-bottom: 0;
+	span {
+		font-weight: bold;
+	}
+}

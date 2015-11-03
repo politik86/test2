@@ -1,0 +1,228 @@
+#dj-tabber15m243 {
+	margin: 10px auto;
+	max-width: 890px;
+	padding: 9px;
+	background: #d7d7d7;
+	border: 1px solid #d0d0d0; 	box-shadow: 0 0 5px #ccc;
+}
+#dj-tabber15m243 .dj-tabber-in {
+	width: 890px;
+	max-width: 890px;
+	height: 343px;
+	position: relative;
+	overflow: hidden;
+}
+#dj-tabber15m243 .dj-slides {
+	width: auto;
+	height: 100%;
+			margin-right: 380px;
+		overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+#dj-tabber15m243 .dj-slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#dj-tabber15m243 .dj-slide-in {
+	height: 100%;
+}
+#dj-tabber15m243 .dj-slide-in > a {
+	background: none;
+}
+#dj-tabber15m243 .dj-slide img.dj-image, 
+#dj-tabber15m243 .dj-slide a:hover img.dj-image {
+	border: 0 !important;
+	width: auto;
+	height: 100%;
+	}
+#dj-tabber15m243 .dj-slide-in .video-icon {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	background: url(/imakler2/components/com_djmediatools/layouts/tabber/images/video.png) center center no-repeat;
+}
+
+#dj-tabber15m243 .dj-slide-desc {
+	position: absolute;
+	width: 94.117647058824%;
+			bottom: 0%;
+		left: 0%;
+		}
+#dj-tabber15m243 .dj-slide-desc-in {
+	position: relative;
+	height: 100%;
+}
+#dj-tabber15m243 .dj-slide-desc-bg {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+			opacity: 0.5;
+		filter: alpha(opacity = 50);
+	}
+#dj-tabber15m243 .dj-slide-desc-text {
+	position: relative;
+	color: #ccc;
+	padding: 10px;
+	text-align: left;
+}
+#dj-tabber15m243 .dj-slide-desc-text p {
+	display: block;
+	padding: 0;
+}
+#dj-tabber15m243 .dj-slide-desc-text a {
+	color: #f5f5f5;
+}
+#dj-tabber15m243 .dj-slide-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.1;
+	color: #f5f5f5;
+	margin-bottom: 5px;
+}
+#dj-tabber15m243 .dj-slide-title a {
+	background: none;
+}
+#dj-tabber15m243 .dj-readmore-wrapper {
+	padding: 5px 0 0;
+	text-align: right;
+}
+#dj-tabber15m243 a.dj-readmore {
+	font-size: 1.1em;
+}
+#dj-tabber15m243 .dj-extra {
+	float: right;
+	margin: 0 0 5px 20px;
+}
+
+#dj-tabber15m243 .dj-navigation {
+	position: absolute;
+	top: 14.577259475219%;
+	width: 510px;
+			margin-right: 380px;
+		z-index: 10;
+}
+#dj-tabber15m243 .dj-navigation-in {
+	position: relative;
+	margin: 0 0px;
+}
+#dj-tabber15m243 .dj-navigation .dj-prev {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#dj-tabber15m243 .dj-navigation .dj-next {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+#dj-tabber15m243 .dj-navigation .dj-play, 
+#dj-tabber15m243 .dj-navigation .dj-pause {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+}
+
+#dj-tabber15m243 .dj-tabs {
+	position: absolute;
+	top: 0;
+			right: 0;
+		width: 380px;
+	height: 100%;
+	z-index: 5;
+}
+#dj-tabber15m243 .dj-tabs-in {
+	position: relative;
+	width: 380px;
+	margin: 0;
+}
+#dj-tabber15m243 .dj-tab-indicator {
+	position: absolute;
+	top: 0;
+			right: 380px;
+		background: url(/imakler2/components/com_djmediatools/layouts/tabber/images/dj-tab-indicator-left.png) right center no-repeat;
+		width: 30px;
+	height: 115px;
+	z-index: 15;
+}
+#dj-tabber15m243 .dj-tab {
+	display: block;
+	height: 115px;
+	overflow: hidden;
+	cursor: pointer;
+	background: #fff url(/imakler2/components/com_djmediatools/layouts/tabber/images/dj-tab.png) 0 100% repeat-x;
+	padding: 0 6px;
+			box-shadow: 1px 1px 2px #999;
+		margin: 0 2px 8px 10px;
+		
+}
+#dj-tabber15m243 span.dj-tab-in {
+	display: table;
+	height: 115px;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #505050;
+	text-shadow: 1px 1px 1px #ddd;
+}
+#dj-tabber15m243 span.dj-tab-in span {
+	display: table-cell;
+	vertical-align: middle;
+}
+#dj-tabber15m243 .dj-tab table {
+	border-collapse: separate;
+	border: 0;
+	height: 115px;
+	overflow: hidden;
+}
+#dj-tabber15m243 .dj-tab table td {
+	border: 0;
+	vertical-align: middle;
+}
+#dj-tabber15m243 .dj-tab-active {
+	background: #2f2f2f url(/imakler2/components/com_djmediatools/layouts/tabber/images/dj-tab-active.png) 0 100% repeat-x;
+			margin-left: 0;
+		padding-left: 16px;
+	}
+#dj-tabber15m243 .dj-tab-active span.dj-tab-in,
+#dj-tabber15m243 .dj-tab-active span.dj-tab-in span {
+	color: #fff;
+	text-shadow: none;
+}
+#dj-tabber15m243 .dj-tab img {
+	border: 1px solid #ccc;
+	margin-right: 8px;
+	max-width: none;
+}
+#dj-tabber15m243 .dj-tab-active img {
+	border: 1px solid #fff;
+}
+
+#dj-tabber15m243 .dj-loader {
+	position: absolute;
+			top: 10px;
+		left: 10px;
+		z-index: 20;
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(/imakler2/components/com_djmediatools/layouts/tabber/images/ajax-loader.gif) left top no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+}

@@ -1,0 +1,342 @@
+/*--------------------------------------------------------------
+ # Copyright (C) joomla-monster.com
+ # License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+ # Website: http://www.joomla-monster.com
+ # Support: info@joomla-monster.com
+ ---------------------------------------------------------------*/
+
+/* DJMENU */
+
+.dj-megamenu {
+    margin: 0;
+    position: relative;   
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    z-index: 500;
+}
+
+.dj-megamenu li.dj-up {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0;
+    margin-left: 3px;
+    background-image: none;
+}
+
+.dj-megamenu li.dj-up:first-child {
+    margin: 0;
+}
+
+.dj-megamenu li a.dj-up_a {
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 13px;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid transparent;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.dj-megamenu.hasSubtitles li a.dj-up_a {
+    height: 46px;
+    line-height: 46px;
+}
+
+.dj-megamenu.hasSubtitles li a.dj-up_a span {
+    line-height: 34px;
+}
+
+.dj-megamenu li a.dj-up_a span {
+    display: block;
+}
+
+.dj-megamenu li.active a.dj-up_a,
+.dj-megamenu li:hover a.dj-up_a {
+    background: #0B496A;
+    padding: 13px 13px 13px 13px;
+    margin-top: -15px;
+}
+
+.dj-megamenu li.parent:hover a.dj-up_a {
+   background: #ffffff;
+   border-bottom: none; 
+   padding-bottom: 2px;
+   z-index: 301;
+   position: relative;
+}
+
+
+.dj-megamenu li a.dj-up_a span.dj-drop {
+    padding: 0 15px 0 0 !important;
+    position: relative;
+    z-index: 201;
+}
+
+.dj-megamenu li a.dj-up_a span.dj-drop:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 4.5px 0 4.5px;
+}
+
+.dj-megamenu.hasSubtitles li a.dj-up_a span.dj-drop:after {
+    top: 14px;
+}
+
+.dj-megamenu li a.dj-up_a small.subtitle {
+    display: block;
+    font-size: 11px;
+    color: #b2b2b2;
+    text-transform: none;
+    line-height: 12px;
+    margin-top: -8px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.dj-megamenu li.separator > a {
+    cursor: default;
+}
+
+/* sticky */
+
+.dj-megamenu-sticky ul.dj-megamenu {
+    padding: 15px 0;
+}
+
+.dj-megamenu-sticky {
+    background: #ffffff;
+    border-bottom: 1px solid #cbcbc8;
+    -webkit-box-shadow: 0 1px 0 0 #e3e3df;
+    box-shadow: 0 1px 0 0 #e3e3df; 
+}
+
+/* Default list styling */
+.dj-megamenu li:hover,
+.dj-megamenu li.hover {
+    position: relative;
+    z-index: 200;
+}
+
+/* Hide submenus */
+
+.dj-megamenu li div.dj-subwrap,
+.dj-megamenu li:hover div.dj-subwrap li div.dj-subwrap,
+.dj-megamenu li.hover div.dj-subwrap li div.dj-subwrap {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Show first level submenu */
+
+.dj-megamenu li:hover div.dj-subwrap,
+.dj-megamenu li.hover div.dj-subwrap {
+    left: 0;
+    top: 36px;
+    height: auto;
+    z-index: 300;
+    background: #ffffff;
+    border: 2px solid #222222;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.dj-megamenu.hasSubtitles li:hover div.dj-subwrap,
+.dj-megamenu.hasSubtitles li.hover div.dj-subwrap {
+    top: 48px;
+}
+
+.dj-megamenu li:hover div.dj-subwrap.multiple_cols,
+.dj-megamenu li.hover div.dj-subwrap.multiple_cols {
+    -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box;    /* Firefox, other Gecko */
+    box-sizing: content-box;         /* Opera/IE 8+ */
+}
+
+/* width if one column */
+.dj-megamenu li:hover div.dj-subwrap.single_column,
+.dj-megamenu li.hover div.dj-subwrap.single_column {
+    width: auto!important;
+}
+
+/* Show higher level submenus */
+.dj-megamenu li:hover div.dj-subwrap li:hover > div.dj-subwrap,
+.dj-megamenu li.hover div.dj-subwrap li.hover > div.dj-subwrap {
+    left: 100%;
+    top: -2px;
+    margin: 0;
+    height: auto;
+    z-index: 400;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.dj-megamenu li:hover div.dj-subwrap li:hover > div.dj-subwrap .dj-subcol,
+.dj-megamenu li.hover div.dj-subwrap li.hover > div.dj-subwrap .dj-subcol {
+    background: #ffffff;
+    border: 2px solid #222222;
+}
+
+/* Submenu elements styles - drop down */
+
+.dj-submenu li {
+    padding: 5px 0;
+    background: none;
+}
+
+.dj-megamenu li div.dj-subcol {
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.dj-megamenu li ul.dj-submenu { 
+    padding: 0;
+}
+
+.dj-megamenu li ul.dj-submenu > li {
+    display: block;
+    position: relative;
+    padding: 0 13px;
+}
+
+.dj-megamenu li ul.dj-submenu > li > a {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 10px 10px 10px 0;
+    border-top: 1px solid #ebeae9;
+}
+
+.dj-megamenu li ul.dj-submenu > li.first > a {
+    border-top: 1px solid transparent;
+}
+
+.dj-megamenu li ul.dj-submenu > li > a small.subtitle {
+    display: block;
+    font-size: 11px;
+    line-height: 1em;
+    color: #b2b2b2;
+}
+
+.dj-megamenu li ul.dj-submenu > li.parent > a {
+    position: relative;
+}
+
+.dj-megamenu li ul.dj-submenu > li.parent > a:after {
+    content: '';
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 4.5px 0 4.5px 5px;
+}
+
+/* image menu */
+
+.dj-megamenu li a span.image-title {
+    margin: 0 0 0 15px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.dj-megamenu li a.dj-up_a img {
+    max-height: 30px;
+    max-width: none;
+    vertical-align: middle;
+}
+
+.dj-megamenu li ul.dj-submenu > li > a img {
+    max-height: 16px;
+}
+
+/* Submenu elements styles - tree */
+
+.dj-megamenu li ul.dj-subtree {
+    list-style: none outside;
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+.dj-megamenu li ul.dj-subtree > li {
+    list-style: none outside;
+    padding: 0;
+    margin: 0 0 0 5px;
+}
+
+.dj-megamenu li ul.dj-subtree > li > a {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.dj-megamenu li ul.dj-subtree > li > a small.subtitle {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1em;
+}
+
+/* modules loaded into menu */
+
+.dj-megamenu li ul.dj-submenu > li.withmodule {
+    padding: 0;
+}
+
+.dj-megamenu .modules-wrap {
+    padding: 30px 10px 20px;
+}
+
+.dj-megamenu .modules-wrap .moduletable {
+    margin: 20px 0 0;
+}
+
+.dj-megamenu .modules-wrap .moduletable:first-child {
+    margin: 0;
+}
+
+.dj-megamenu .modules-wrap .moduletable > h3 {
+    color: #232323;
+    font-size: 16px!important;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin: 0 0 15px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ebebeb; 
+}
+
+.dj-megamenu .modules-wrap {
+    margin: 0;
+}

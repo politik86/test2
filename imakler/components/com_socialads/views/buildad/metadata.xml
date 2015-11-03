@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+
+<metadata>
+	<view title="Buildad" >
+		<message><![CDATA[Create a new AD]]></message>	
+		 <options var="task">
+ 			<default name="Create Ad" msg="Create a new AD" />
+		  </options>
+	</view>	
+	<state>
+	<name>Build Ads</name>
+	<description>Create a new AD</description>	 
+	</state>
+</metadata>
+
